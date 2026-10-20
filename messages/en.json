@@ -1,0 +1,2999 @@
+{
+  "meta": {
+    "siteName": "HelloKhata",
+    "titleTemplate": "%s · HelloKhata",
+    "defaultTitle": "HelloKhata — Your business, in your language",
+    "defaultDescription": "HelloKhata is a voice-first, AI-powered business management platform from Bangladesh. Manage sales, inventory, purchases, expenses and customer dues in one place — in Bangla or English.",
+    "pages": {
+      "features": {
+        "title": "Features",
+        "description": "Sales and billing, inventory, purchases, expenses, customer dues, reports and an AI assistant — everything HelloKhata does, explained simply."
+      },
+      "solutions": {
+        "title": "Solutions by business type",
+        "description": "HelloKhata for grocery and retail shops, pharmacies, super shops, online sellers and F-commerce sellers in Bangladesh."
+      },
+      "pricing": {
+        "title": "Pricing",
+        "description": "HelloKhata plans, what each includes and how to get started."
+      },
+      "howItWorks": {
+        "title": "How it works",
+        "description": "From your first product to your first business question: how HelloKhata works, step by step."
+      },
+      "about": {
+        "title": "About HelloKhata",
+        "description": "Why we're building HelloKhata: business software that speaks the language of Bangladeshi business owners."
+      },
+      "resources": {
+        "title": "Help Center",
+        "description": "Answers to common questions about getting started, sales, stock, the AI assistant and your account."
+      },
+      "contact": {
+        "title": "Contact",
+        "description": "Talk to the HelloKhata team about getting started, support or partnerships."
+      },
+      "signIn": {
+        "title": "Sign in",
+        "description": "Sign in to your HelloKhata account."
+      },
+      "getStarted": {
+        "title": "Get started",
+        "description": "Set up HelloKhata for your business in a few steps."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "description": "How HelloKhata handles your information."
+      },
+      "terms": {
+        "title": "Terms and Conditions",
+        "description": "The terms that apply to using HelloKhata."
+      }
+    },
+    "sceneAlt": "Hand-drawn illustration of a Bangladeshi street: a small pharmacy, a general store with a shopkeeper writing in a ledger, an apartment balcony with potted plants and a parked rickshaw. A green ink line runs from the ledger to a phone showing the HelloKhata assistant."
+  },
+  "common": {
+    "getStarted": "Get Started",
+    "getStartedToday": "Get Started Today",
+    "seeHowItWorks": "See How It Works",
+    "signIn": "Sign In",
+    "learnMore": "Learn more",
+    "explore": "Explore",
+    "back": "Back",
+    "next": "Continue",
+    "sampleData": "Sample data",
+    "sampleDataLong": "Illustrative sample data — not a real business",
+    "demo": "Demo",
+    "available": "Available",
+    "planned": "Planned",
+    "skipToContent": "Skip to main content",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "switchLanguage": "বাংলায় দেখুন",
+    "required": "required",
+    "optional": "optional",
+    "taka": "Tk",
+    "backToHome": "Back to home",
+    "breadcrumb": "Breadcrumb"
+  },
+  "nav": {
+    "label": "Main",
+    "features": "Features",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "company": "Company",
+    "allFeatures": "All features",
+    "allSolutions": "All business types",
+    "help": "Help Center",
+    "helpDesc": "Answers to common questions",
+    "howItWorks": "How It Works",
+    "howItWorksDesc": "From setup to your first question",
+    "about": "About HelloKhata",
+    "aboutDesc": "Why we're building it",
+    "contact": "Contact",
+    "contactDesc": "Talk to our team"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Voice-first business management",
+      "title1": "Your business,",
+      "title2": "in your language.",
+      "lead": "Manage sales, inventory, expenses, and customer dues in one place—with intelligent tools that make everyday business simpler.",
+      "annotation": "from the khata… to clarity",
+      "cardLabel": "Today's sales",
+      "cardDelta": "+12% vs yesterday",
+      "cardItems": "{count} sales",
+      "phoneTitle": "HelloKhata Assistant",
+      "phoneQuestion": "How much did I sell today?",
+      "phoneAnswer": "Today's total sales are Tk 24,530.",
+      "phoneNote": "Illustrative demo",
+      "pillars": [
+        {
+          "title": "Simple",
+          "body": "Record sales, stock and expenses without complicated software."
+        },
+        {
+          "title": "Intelligent",
+          "body": "Ask questions in plain Bangla or English and get answers from your records."
+        },
+        {
+          "title": "In control",
+          "body": "See sales, stock, expenses and dues together, in one organised place."
+        }
+      ]
+    },
+    "ledger": {
+      "eyebrow": "From khata to HelloKhata",
+      "title": "The ledger you trust, now organised for you.",
+      "steps": [
+        {
+          "title": "The khata opens",
+          "body": "Every shop has its own way of keeping accounts — a red ledger, a notebook, slips of paper. That's where we start."
+        },
+        {
+          "title": "Entries become records",
+          "body": "Each sale you'd have written by hand becomes an organised transaction: item, quantity, amount, customer."
+        },
+        {
+          "title": "Records become clarity",
+          "body": "Totals, stock levels and dues update on their own, so you see your business at a glance."
+        }
+      ],
+      "coverTitle": "Khata",
+      "coverYear": "1433",
+      "handHeader": "Today's account",
+      "handRows": [
+        {
+          "item": "Rice 5 kg",
+          "amount": "390"
+        },
+        {
+          "item": "Lentils 2 kg",
+          "amount": "280"
+        },
+        {
+          "item": "Soybean oil 1 L",
+          "amount": "190"
+        },
+        {
+          "item": "Rahim bhai (due)",
+          "amount": "550"
+        }
+      ],
+      "appTitle": "Sales · Today",
+      "appRows": [
+        "Rice (miniket)",
+        "Lentils (masoor)",
+        "Soybean oil",
+        "Rahim Uddin"
+      ],
+      "dueTag": "Due",
+      "totalLabel": "Total",
+      "stockLabel": "Inventory updated",
+      "stockItem": "Rice (miniket) — 42 kg left"
+    },
+    "demo": {
+      "eyebrow": "The product",
+      "title": "Everything about today's business, on one screen.",
+      "lead": "A preview of the HelloKhata app. Switch between views to see how sales, stock and reports fit together.",
+      "previewLabel": "Interactive preview of the HelloKhata app",
+      "appName": "HelloKhata",
+      "shopName": "Notun Bazar General Store",
+      "today": "Today"
+    },
+    "voice": {
+      "eyebrow": "Voice assistant",
+      "title": "Talk to your business. Understand what matters.",
+      "lead": "Ask in Bangla or English. Use HelloKhata's AI assistant to get answers from your business information.",
+      "notice": "This is an interactive demonstration. Your microphone is not used and answers come from sample data.",
+      "dataNote": "In the real app, answers depend on the records in your account and the access you've been given.",
+      "micIdle": "Play the demo question",
+      "micBusy": "Demo in progress",
+      "listening": "Demo: asking…",
+      "thinking": "Looking through the records…",
+      "textLabel": "Or type a question",
+      "textPlaceholder": "e.g. How much is due from customers?",
+      "send": "Ask",
+      "suggestionsLabel": "Try asking",
+      "suggestions": [
+        "How much did I sell today?",
+        "How much is due from customers?",
+        "Which products are running low?",
+        "What were this month's expenses?"
+      ],
+      "you": "You",
+      "assistant": "HelloKhata",
+      "answers": {
+        "sales": "Today's total sales are Tk {amount}.",
+        "dues": "Customers owe you Tk {amount} in total. Rahim Uddin has the largest due.",
+        "stock": "{count} products are running low. Lentils (masoor) has only {qty} kg left.",
+        "expenses": "This month's expenses are Tk {amount} so far. Rent is the largest item.",
+        "unknown": "In this demo I can only answer a few sample questions — about today's sales, customer dues, low stock or this month's expenses."
+      },
+      "sourceLabel": "Answer found in",
+      "sources": {
+        "sales": "Today's sales",
+        "dues": "Customer dues",
+        "stock": "Low stock",
+        "expenses": "Expenses this month"
+      },
+      "reset": "Start over",
+      "empty": "Your question and the answer will appear here."
+    },
+    "featuresSection": {
+      "eyebrow": "One platform",
+      "title": "Many business needs, one organised place.",
+      "lead": "Each part of HelloKhata handles one everyday job — and shares what it knows with the rest.",
+      "explore": "Explore {name}",
+      "sales": {
+        "heading": "Bill a customer in seconds",
+        "body": "Add items, see the total instantly and keep a record of every sale.",
+        "add": "Add {item}",
+        "bill": "Bill",
+        "total": "Total",
+        "clear": "Clear bill",
+        "empty": "Add an item to start the bill"
+      },
+      "inventory": {
+        "heading": "Know what's on the shelf",
+        "body": "Stock goes down with every sale, so you can see what needs restocking before it runs out.",
+        "hint": "Select a jar to check its stock",
+        "left": "{qty} {unit} left",
+        "low": "Low stock"
+      },
+      "purchases": {
+        "heading": "See the real cost of what you buy",
+        "body": "Record purchases from suppliers, including transport and labour, so your cost per unit is accurate.",
+        "toggle": "Include transport and labour",
+        "supplier": "Supplier: Karim Traders",
+        "goods": "Rice, 10 sacks × 25 kg",
+        "transport": "Transport",
+        "labour": "Labour",
+        "perKg": "Cost per kg"
+      },
+      "expenses": {
+        "heading": "Every expense, in its place",
+        "body": "Rent, bills, salaries — record them as they happen and see where the money goes.",
+        "filterLabel": "Filter expenses",
+        "all": "All",
+        "categories": {
+          "rent": "Rent",
+          "utilities": "Utilities",
+          "salary": "Salary",
+          "other": "Other"
+        },
+        "entries": {
+          "rent": "Shop rent — October",
+          "electricity": "Electricity bill",
+          "salary": "Assistant's salary",
+          "van": "Delivery van fuel",
+          "water": "Water bill"
+        },
+        "totalLabel": "Shown total"
+      },
+      "customers": {
+        "heading": "Dues, without the guesswork",
+        "body": "Know who owes what, since when — and record every payment as it comes in.",
+        "hint": "Select a customer to see their history",
+        "since": "Since {date}",
+        "history": {
+          "bought": "Bought on due",
+          "paid": "Paid"
+        }
+      },
+      "reports": {
+        "heading": "Reports you can actually read",
+        "body": "Sales, expenses and best-selling products in clear charts — by day, week or month.",
+        "week": "This week",
+        "month": "This month"
+      },
+      "assistant": {
+        "heading": "Ask instead of searching",
+        "body": "Questions like \"what's running low?\" get answered from your own records, in your language.",
+        "cta": "Try the voice demo"
+      }
+    },
+    "growth": {
+      "eyebrow": "Better records, better decisions",
+      "title": "From scattered notes to informed decisions.",
+      "lead": "Software won't run your business for you. But when your numbers are organised, the next decision gets easier.",
+      "stages": [
+        {
+          "title": "The paper ledger",
+          "body": "Everything lives in one book — and in the owner's memory."
+        },
+        {
+          "title": "Scattered notes",
+          "body": "Slips, receipts and messages pile up. Some get lost."
+        },
+        {
+          "title": "Organised records",
+          "body": "Every sale, purchase and expense in one place, searchable."
+        },
+        {
+          "title": "Clear reports",
+          "body": "Daily totals, slow-moving stock and dues — at a glance."
+        },
+        {
+          "title": "Informed decisions",
+          "body": "What to restock, whom to follow up with, where costs can drop."
+        }
+      ],
+      "scrollHint": "Keep scrolling"
+    },
+    "trust": {
+      "eyebrow": "Trust",
+      "title": "Built to be trusted with your accounts.",
+      "lead": "Your accounts are personal. Here is how we think about them.",
+      "storiesTitle": "Stories from businesses",
+      "storiesPlaceholderTitle": "Customer stories are on their way",
+      "storiesPlaceholderBody": "We'll share real experiences from HelloKhata users here — only with their permission.",
+      "principles": [
+        {
+          "title": "Answers from your records",
+          "body": "The AI assistant answers from the business information in your account — it doesn't make up figures."
+        },
+        {
+          "title": "Access you decide",
+          "body": "Information is available to the people you authorise on your account."
+        },
+        {
+          "title": "Help in your language",
+          "body": "Guides and support are designed for Bangla-speaking business owners."
+        },
+        {
+          "title": "A gentle start",
+          "body": "Begin with what you already have — products, prices and today's sales — and grow from there."
+        }
+      ],
+      "helpLink": "Read common questions"
+    },
+    "final": {
+      "title": "Let your business's next chapter begin here.",
+      "lead": "Keep your accounts organised, make work simpler, and make decisions with more confidence.",
+      "cta": "Get Started with HelloKhata"
+    },
+    "showcase": {
+      "eyebrow": "Solutions",
+      "title": "Find the HelloKhata that fits your business.",
+      "lead": "From a neighbourhood shop to a chain of super shops, from a Facebook page to your own online store.",
+      "hint": "Hover, tap or focus a business to see HelloKhata at work",
+      "open": "See the solution",
+      "flip": "Show product view",
+      "otherTitle": "Running a different kind of business?",
+      "otherBody": "Hardware, stationery, cosmetics, wholesale — if you buy, sell and keep accounts, the core of HelloKhata can help.",
+      "otherLink": "Other businesses",
+      "mini": {
+        "todaySales": "Today's sales",
+        "lowStock": "Low stock",
+        "expiring": "Expiring within 60 days",
+        "byBranch": "Today's sales by branch",
+        "storePreview": "Store preview",
+        "chatOrder": "Order drafted from chat"
+      }
+    },
+    "chapters": {
+      "eyebrow": "Grow beyond one counter",
+      "title": "One platform, as your business grows.",
+      "enterprise": {
+        "eyebrow": "Enterprise growth",
+        "title": "Every branch. One control center.",
+        "body": "When one shop becomes several, see sales, stock, warehouses and teams across locations from one place.",
+        "cta": "Explore Super Shop"
+      },
+      "digital": {
+        "eyebrow": "Digital expansion",
+        "title": "Your products. Your own store.",
+        "body": "Build a branded online store, choose a theme and connect it to the products you already manage.",
+        "cta": "Explore Online Store"
+      },
+      "social": {
+        "eyebrow": "Social selling",
+        "title": "Turn customer conversations into orders.",
+        "body": "Answer shoppers faster with AI-assisted replies from your catalogue — and bring in your team when it matters.",
+        "cta": "Explore Social Commerce"
+      }
+    }
+  },
+  "demo": {
+    "tabs": {
+      "dashboard": "Dashboard",
+      "sales": "Sales",
+      "inventory": "Inventory",
+      "reports": "Reports"
+    },
+    "tabsLabel": "Preview views",
+    "dashboard": {
+      "todaySales": "Today's sales",
+      "purchases": "Purchases (month)",
+      "expenses": "Expenses (month)",
+      "dues": "Customer dues",
+      "vsYesterday": "vs yesterday",
+      "trend": "Sales, last 7 days",
+      "lowStock": "Low stock",
+      "topProducts": "Top products today",
+      "units": "{qty} sold"
+    },
+    "sales": {
+      "rangeLabel": "Period",
+      "ranges": {
+        "today": "Today",
+        "week": "7 days",
+        "month": "30 days"
+      },
+      "total": "Total sales",
+      "count": "Number of sales",
+      "average": "Average sale",
+      "recent": "Recent sales",
+      "columns": {
+        "invoice": "Invoice",
+        "customer": "Customer",
+        "amount": "Amount",
+        "method": "Payment"
+      },
+      "methods": {
+        "cash": "Cash",
+        "mobile": "Mobile banking",
+        "due": "Due"
+      },
+      "walkIn": "Walk-in customer"
+    },
+    "inventory": {
+      "lowOnly": "Low stock only",
+      "columns": {
+        "product": "Product",
+        "stock": "In stock",
+        "status": "Status"
+      },
+      "status": {
+        "ok": "In stock",
+        "low": "Low",
+        "out": "Out of stock"
+      },
+      "summary": "{count} products · {low} need restocking"
+    },
+    "reports": {
+      "typeLabel": "Report",
+      "types": {
+        "overview": "Sales & expenses",
+        "products": "Top products",
+        "dues": "Customer dues"
+      },
+      "sales": "Sales",
+      "expenses": "Expenses",
+      "net": "Sales minus expenses",
+      "week": "Week {n}",
+      "dueTotal": "Total due"
+    },
+    "units": {
+      "kg": "kg",
+      "pcs": "pcs",
+      "litre": "L",
+      "packet": "packets",
+      "box": "boxes",
+      "strip": "strips"
+    },
+    "products": {
+      "rice": "Rice (miniket)",
+      "lentil": "Lentils (masoor)",
+      "oil": "Soybean oil",
+      "sugar": "Sugar",
+      "flour": "Flour (atta)",
+      "tea": "Tea leaves",
+      "soap": "Bath soap",
+      "biscuit": "Biscuits",
+      "egg": "Eggs",
+      "salt": "Salt",
+      "onion": "Onion",
+      "milk": "Powdered milk"
+    },
+    "customers": {
+      "rahim": "Rahim Uddin",
+      "salma": "Salma Begum",
+      "jamal": "Jamal Hossain",
+      "nasrin": "Nasrin Akter"
+    },
+    "days": [
+      "Sat",
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "appNav": {
+      "label": "HelloKhata menu",
+      "groups": {
+        "dashboard": "Dashboard",
+        "sales": "Sales",
+        "purchases": "Purchases",
+        "parties": "Parties",
+        "inventory": "Inventory",
+        "finance": "Finance & Accounting",
+        "reports": "Reports"
+      },
+      "items": {
+        "pos": "POS",
+        "salesList": "Sales List",
+        "quotations": "Quotations",
+        "salesReturn": "Sales Return",
+        "newPurchase": "New Purchase",
+        "purchaseList": "Purchase List",
+        "purchaseReturn": "Purchase Return",
+        "newParty": "New Party",
+        "partiesList": "Parties List",
+        "paymentIn": "Payment In",
+        "paymentOut": "Payment Out",
+        "addItem": "Add New Item",
+        "inventoryList": "Inventory List",
+        "batches": "Batches",
+        "warehouse": "Warehouse",
+        "stockAdjustment": "Stock Adjustment",
+        "stockTransfer": "Stock Transfer",
+        "income": "Income",
+        "expenses": "Expenses",
+        "depositWithdrawal": "Deposit / Withdrawal"
+      }
+    },
+    "screens": {
+      "previewOnly": "This is a preview — nothing is saved.",
+      "names": {
+        "canteen": "Green Valley School canteen",
+        "hotel": "Hotel Rupsha",
+        "shapla": "Shapla Wholesale",
+        "karim": "Karim Traders",
+        "sonali": "Sonali Poultry Farm"
+      },
+      "methods": {
+        "cash": "Cash",
+        "mobile": "Mobile banking",
+        "bank": "Bank"
+      },
+      "cols": {
+        "no": "No.",
+        "date": "Date",
+        "party": "Party",
+        "customer": "Customer",
+        "supplier": "Supplier",
+        "product": "Product",
+        "qty": "Qty",
+        "amount": "Amount",
+        "status": "Status",
+        "method": "Method",
+        "reason": "Reason",
+        "invoice": "Invoice",
+        "purchase": "Purchase",
+        "batch": "Batch",
+        "received": "Received",
+        "expiry": "Expiry",
+        "phone": "Phone",
+        "balance": "Balance",
+        "change": "Change",
+        "category": "Category",
+        "type": "Type",
+        "account": "Account",
+        "items": "Items"
+      },
+      "reasons": {
+        "damaged": "Damaged",
+        "wrongItem": "Wrong item",
+        "expired": "Expired",
+        "quality": "Quality issue"
+      },
+      "pos": {
+        "cart": "Current bill",
+        "items": "{n} items",
+        "empty": "Tap a product to add it.",
+        "customer": "Customer",
+        "walkIn": "Walk-in customer",
+        "pay": "Payment",
+        "due": "Due",
+        "dueNeedsCustomer": "Choose a customer to sell on due.",
+        "total": "Total",
+        "complete": "Complete sale",
+        "out": "Out of stock"
+      },
+      "quotations": {
+        "open": "Open quotations",
+        "openValue": "Open value",
+        "converted": "Turned into sales",
+        "status": {
+          "sent": "Sent",
+          "accepted": "Accepted",
+          "expired": "Expired",
+          "converted": "Converted"
+        }
+      },
+      "salesReturn": {
+        "count": "Returns this month",
+        "refunded": "Refunded"
+      },
+      "newPurchase": {
+        "supplier": "Supplier",
+        "invoice": "Supplier invoice no.",
+        "date": "Date",
+        "unitCost": "Unit cost",
+        "lineTotal": "Total",
+        "paid": "Paid now",
+        "transport": "Transport",
+        "grandTotal": "Grand total",
+        "due": "Due to supplier",
+        "save": "Save purchase"
+      },
+      "purchaseList": {
+        "month": "Purchases this month",
+        "owed": "Owed to suppliers",
+        "count": "Purchases",
+        "add": "New purchase",
+        "status": {
+          "paid": "Paid",
+          "partial": "Partly paid",
+          "due": "Due"
+        }
+      },
+      "purchaseReturn": {
+        "count": "Returns this month",
+        "credit": "Credit from suppliers"
+      },
+      "newParty": {
+        "type": "Party type",
+        "customer": "Customer",
+        "supplier": "Supplier",
+        "name": "Name",
+        "namePhCustomer": "e.g. Rahim Uddin",
+        "namePhSupplier": "e.g. Karim Traders",
+        "phone": "Phone",
+        "address": "Address",
+        "opening": "Opening balance (৳)",
+        "openingHintCustomer": "What this customer already owes you.",
+        "openingHintSupplier": "What you already owe this supplier.",
+        "save": "Save party"
+      },
+      "parties": {
+        "kind": "Party type",
+        "customers": "Customers",
+        "suppliers": "Suppliers",
+        "add": "New party",
+        "totalReceivable": "Total to receive",
+        "totalPayable": "Total to pay",
+        "receivable": "to receive",
+        "payable": "to pay",
+        "settled": "Settled"
+      },
+      "paymentIn": {
+        "month": "Received this month",
+        "count": "Payments received"
+      },
+      "paymentOut": {
+        "month": "Paid this month",
+        "count": "Payments made"
+      },
+      "addItem": {
+        "name": "Item name",
+        "namePh": "e.g. Chinigura rice",
+        "category": "Category",
+        "categories": {
+          "grocery": "Groceries",
+          "dairy": "Dairy & eggs",
+          "snacks": "Snacks & drinks",
+          "care": "Personal care"
+        },
+        "unit": "Unit",
+        "buy": "Purchase price (৳)",
+        "sell": "Selling price (৳)",
+        "margin": "Margin per unit",
+        "opening": "Opening stock",
+        "alert": "Low-stock alert at",
+        "batches": "Track batches and expiry",
+        "save": "Save item"
+      },
+      "batches": {
+        "summary": "{n} batches · {soon} expire within 60 days",
+        "daysLeft": "{n} days left",
+        "ok": "Good"
+      },
+      "warehouse": {
+        "locations": {
+          "shop": "Shop floor",
+          "store": "Back store"
+        },
+        "items": "{n} items",
+        "value": "Stock value at selling price",
+        "total": "Total"
+      },
+      "adjustment": {
+        "lead": "Corrections to stock after counting, damage or expiry — each with a reason.",
+        "reasons": {
+          "damaged": "Damaged",
+          "countCorrection": "Count correction",
+          "expired": "Expired"
+        }
+      },
+      "transfer": {
+        "status": {
+          "completed": "Completed",
+          "pending": "Pending"
+        }
+      },
+      "income": {
+        "month": "Other income this month",
+        "note": "Sales are recorded automatically. Add other income — like fees or scrap sales — here.",
+        "cats": {
+          "displayFee": "Supplier display fee",
+          "scrap": "Carton & scrap sale",
+          "commission": "Mobile recharge commission",
+          "rent": "Space rent"
+        }
+      },
+      "expenses": {
+        "month": "Expenses this month",
+        "cats": {
+          "rent": "Rent",
+          "salary": "Salary",
+          "utilities": "Utilities",
+          "other": "Other"
+        },
+        "items": {
+          "rent": "Shop rent",
+          "electricity": "Electricity bill",
+          "salary": "Staff salary",
+          "van": "Delivery van",
+          "water": "Water bill"
+        }
+      },
+      "deposit": {
+        "accounts": {
+          "cash": "Cash in hand",
+          "bank": "Bank account",
+          "mobile": "Mobile banking"
+        },
+        "types": {
+          "deposit": "Bank deposit",
+          "withdrawal": "Bank withdrawal",
+          "owner": "Owner's withdrawal",
+          "capital": "Capital added"
+        }
+      }
+    }
+  },
+  "features": {
+    "index": {
+      "eyebrow": "Features",
+      "title": "Everything your business does in a day, in one place.",
+      "lead": "HelloKhata brings together the everyday jobs of running a business. Here's what each part does."
+    },
+    "detail": {
+      "pointsTitle": "What you can do",
+      "stepsTitle": "How it works",
+      "relatedTitle": "Works well with",
+      "ctaTitle": "Try it with your own business",
+      "ctaBody": "Set up HelloKhata and start with what you already have."
+    },
+    "items": {
+      "sales": {
+        "name": "Sales & Billing",
+        "short": "Make bills quickly and keep a record of every sale.",
+        "title": "Sell faster. Keep every sale on record.",
+        "lead": "Create a bill in seconds, take cash, mobile banking or due payments, and let HelloKhata keep the record for you.",
+        "points": [
+          "Create bills by searching products or speaking",
+          "Record cash, mobile banking and due payments",
+          "Stock updates automatically with every sale",
+          "See today's total at any moment"
+        ],
+        "steps": [
+          {
+            "title": "Add items",
+            "body": "Search, scan or say the product name and quantity."
+          },
+          {
+            "title": "Take payment",
+            "body": "Choose how the customer pays — fully, partly or on due."
+          },
+          {
+            "title": "It's recorded",
+            "body": "The sale, stock change and any due are saved together."
+          }
+        ]
+      },
+      "inventory": {
+        "name": "Inventory",
+        "short": "Know what's in stock and what needs restocking.",
+        "title": "Know what's on your shelves without counting.",
+        "lead": "Every sale and purchase updates your stock, so you always know what you have — and what's about to run out.",
+        "points": [
+          "Products with units, prices and stock levels",
+          "Low-stock lists so nothing runs out unexpectedly",
+          "Stock adjusts automatically with sales and purchases",
+          "Find any product by name in Bangla or English"
+        ],
+        "steps": [
+          {
+            "title": "Add your products",
+            "body": "Name, unit, buying price, selling price and current stock."
+          },
+          {
+            "title": "Sell and buy as usual",
+            "body": "Stock goes down with sales and up with purchases."
+          },
+          {
+            "title": "Restock in time",
+            "body": "Check the low-stock list before you place an order."
+          }
+        ]
+      },
+      "purchases": {
+        "name": "Purchases & Suppliers",
+        "short": "Track what you buy, from whom, and at what real cost.",
+        "title": "Know exactly what your stock costs you.",
+        "lead": "Record purchases from suppliers along with transport, labour and other costs, so your buying price is accurate.",
+        "points": [
+          "Purchase records by supplier",
+          "Add transport, labour and other purchase costs",
+          "See the real cost per unit",
+          "Keep track of what you owe suppliers"
+        ],
+        "steps": [
+          {
+            "title": "Record the purchase",
+            "body": "Supplier, products, quantities and prices."
+          },
+          {
+            "title": "Add extra costs",
+            "body": "Transport, labour or anything else you paid to bring goods in."
+          },
+          {
+            "title": "Stock and cost update",
+            "body": "Your inventory and per-unit cost reflect the purchase."
+          }
+        ]
+      },
+      "expenses": {
+        "name": "Expenses & Transactions",
+        "short": "Record every expense and transaction in its place.",
+        "title": "See where the money goes.",
+        "lead": "Rent, bills, salaries and daily costs — recorded by category, so you can see your spending clearly.",
+        "points": [
+          "Expenses organised by category",
+          "A clear history of every transaction",
+          "Monthly totals at a glance",
+          "Expenses included in your reports"
+        ],
+        "steps": [
+          {
+            "title": "Record an expense",
+            "body": "Amount, category and a short note — or just say it."
+          },
+          {
+            "title": "It's categorised",
+            "body": "Each expense goes into its category automatically."
+          },
+          {
+            "title": "Review any time",
+            "body": "Filter by category or month to see the full picture."
+          }
+        ]
+      },
+      "customers": {
+        "name": "Customers & Dues",
+        "short": "Keep track of customers and what they owe.",
+        "title": "Every due, clearly accounted for.",
+        "lead": "Keep a list of your customers, see who owes what and since when, and record payments as they come in.",
+        "points": [
+          "Customer list with contact details",
+          "Dues recorded automatically with due sales",
+          "Payment history for every customer",
+          "Total dues at a glance"
+        ],
+        "steps": [
+          {
+            "title": "Sell on due",
+            "body": "Choose the customer when they don't pay in full."
+          },
+          {
+            "title": "Dues add up",
+            "body": "Their balance updates with every purchase and payment."
+          },
+          {
+            "title": "Settle clearly",
+            "body": "Record payments and show the customer their history."
+          }
+        ]
+      },
+      "reports": {
+        "name": "Reports & Insights",
+        "short": "Understand your business through clear reports.",
+        "title": "Your business, in numbers you can read.",
+        "lead": "Sales, expenses, top products and dues in clear reports — by day, week or month.",
+        "points": [
+          "Daily, weekly and monthly sales reports",
+          "Sales and expenses side by side",
+          "Best-selling and slow-moving products",
+          "Customer due reports"
+        ],
+        "steps": [
+          {
+            "title": "Work as usual",
+            "body": "Reports build themselves from your daily records."
+          },
+          {
+            "title": "Choose a period",
+            "body": "Today, this week, this month — or any range."
+          },
+          {
+            "title": "Act on what you see",
+            "body": "Restock, follow up on dues or cut a cost."
+          }
+        ]
+      },
+      "assistant": {
+        "name": "AI Assistant",
+        "short": "Ask questions about your business in your own words.",
+        "title": "Ask your business a question.",
+        "lead": "Speak or type in Bangla or English. The assistant answers from the business information in your account.",
+        "points": [
+          "Ask by voice or text, in Bangla or English",
+          "Answers drawn from your own business records",
+          "Quick answers about sales, stock, expenses and dues",
+          "Works only with information you're authorised to see"
+        ],
+        "steps": [
+          {
+            "title": "Ask",
+            "body": "\"How much did I sell today?\" — just as you'd ask a person."
+          },
+          {
+            "title": "It looks it up",
+            "body": "The assistant finds the answer in your records."
+          },
+          {
+            "title": "You understand",
+            "body": "A clear answer, linked to the figures it came from."
+          }
+        ]
+      }
+    }
+  },
+  "solutions": {
+    "index": {
+      "eyebrow": "Solutions",
+      "title": "One platform for how Bangladesh sells today.",
+      "lead": "Neighbourhood shops, pharmacies, growing super shops, online stores and Facebook sellers — each gets the tools that fit, on one shared core."
+    },
+    "detail": {
+      "needsTitle": "What this business needs",
+      "helpsTitle": "How HelloKhata helps",
+      "capabilitiesTitle": "Capabilities for this business",
+      "plannedNote": "Features marked “Planned” are not available yet and may change.",
+      "demoTitle": "See it in action",
+      "flagship": "Flagship solution"
+    },
+    "items": {
+      "grocery": {
+        "name": "Grocery & retail",
+        "short": "Daily sales, stock, purchases and customer dues.",
+        "title": "Your shop's accounts, at your fingertips.",
+        "lead": "Sales, stock, purchases, expenses and dues — all in one app. And ask about your business in Bangla.",
+        "needs": [
+          "Fast billing during busy hours",
+          "Knowing which items are running low",
+          "Keeping customer dues accurate"
+        ],
+        "example": {
+          "title": "Morning rush at a grocery store",
+          "lines": [
+            "68 sales recorded before noon",
+            "Lentils flagged as low stock",
+            "Tk 3,240 in dues collected"
+          ]
+        }
+      },
+      "pharmacy": {
+        "name": "Pharmacy",
+        "short": "Medicine stock, batches and expiry dates in order.",
+        "title": "Run your pharmacy with clarity and confidence.",
+        "lead": "Manage medicine sales, inventory, purchases, expiry tracking, and business records — with intelligent prescription reading built into your workflow.",
+        "needs": [
+          "Tracking batches and expiry dates",
+          "Finding medicines quickly by name",
+          "Accurate stock across hundreds of items"
+        ],
+        "example": {
+          "title": "An evening at a pharmacy",
+          "lines": [
+            "3 batches expiring within 60 days",
+            "Paracetamol strips running low",
+            "Today's sales: Tk 18,760"
+          ]
+        }
+      },
+      "supershop": {
+        "name": "Super Shop",
+        "short": "Multi-branch operations, warehouses, POS, HRM and oversight.",
+        "title": "Every branch. One control center.",
+        "lead": "Manage your stores, warehouses, sales teams, inventory, and business operations through one connected platform.",
+        "needs": [
+          "Seeing every branch without visiting each one",
+          "Moving stock between warehouse and stores on time",
+          "Giving each team member the right access"
+        ],
+        "example": {
+          "title": "A Friday across four branches",
+          "lines": [
+            "Dhanmondi branch at 93% of today's target",
+            "Rice transfer requested from the warehouse to Mirpur",
+            "Evening shift rosters ready at every branch"
+          ]
+        }
+      },
+      "online-store": {
+        "name": "Online Seller",
+        "short": "Your own branded storefront, themes and commerce integrations.",
+        "title": "Your products. Your own store.",
+        "lead": "Create your branded online store, customize its design, connect your business tools, and manage your orders in one place.",
+        "needs": [
+          "A store that looks like your brand, not a marketplace",
+          "Products and stock that stay in sync",
+          "Orders, payment and delivery in one flow"
+        ],
+        "example": {
+          "title": "Launch week for a handicraft brand",
+          "lines": [
+            "Theme chosen and colours matched to the logo",
+            "24 products published from the catalogue",
+            "First orders arriving with stock updated"
+          ]
+        }
+      },
+      "f-commerce": {
+        "name": "F-Commerce Seller",
+        "short": "AI-assisted conversations, shared inbox and order workflows.",
+        "title": "Turn customer conversations into orders.",
+        "lead": "Manage customer conversations, help shoppers discover products, automate eligible sales workflows, and keep your team connected through an AI-assisted social commerce experience.",
+        "needs": [
+          "Answering price and size questions without delay",
+          "Not losing interested customers in scattered inboxes",
+          "Turning chats into confirmed, tracked orders"
+        ],
+        "example": {
+          "title": "A busy evening on a Facebook page",
+          "lines": [
+            "42 price questions answered from the catalogue",
+            "3 conversations handed to the sales team",
+            "11 order drafts created from chats"
+          ]
+        }
+      },
+      "other": {
+        "name": "Other businesses",
+        "short": "The essentials for any business that buys and sells.",
+        "title": "For every business that's growing.",
+        "lead": "Hardware, stationery, cosmetics, wholesale — if you buy, sell and keep accounts, HelloKhata can help organise them.",
+        "needs": [
+          "One place for sales, stock and expenses",
+          "Clear records instead of scattered notes",
+          "Simple reports to plan ahead"
+        ],
+        "example": {
+          "title": "A typical day",
+          "lines": [
+            "Sales and purchases recorded",
+            "Expenses categorised",
+            "A clear end-of-day summary"
+          ]
+        }
+      }
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Choose the plan that fits your business.",
+    "lead": "Start with what you need today. Move up as your business grows.",
+    "notice": "Final pricing and plan details are being prepared. The plans below show how they will be organised — prices and limits will be confirmed before launch.",
+    "priceTbd": "Price to be announced",
+    "perMonth": "/month",
+    "suits": "Suits",
+    "includes": "Includes",
+    "ai": "AI assistant",
+    "limits": "Limits",
+    "cta": "Get Started Today",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "tagline": "For a single shop getting organised.",
+        "suits": "Small shops and new businesses",
+        "features": [
+          "Sales and billing",
+          "Products and stock",
+          "Expenses",
+          "Customer dues",
+          "Basic reports"
+        ],
+        "ai": "Limited questions per month",
+        "limits": "To be confirmed"
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "For busy shops with more to track.",
+        "suits": "Grocery and retail shops, pharmacies",
+        "features": [
+          "Everything in Starter",
+          "Purchases and suppliers",
+          "Purchase costs (transport, labour)",
+          "Detailed reports",
+          "More users"
+        ],
+        "ai": "More questions per month",
+        "limits": "To be confirmed"
+      },
+      "business": {
+        "name": "Business",
+        "tagline": "For growing businesses with a team.",
+        "suits": "Larger stores and businesses with staff",
+        "features": [
+          "Everything in Growth",
+          "Advanced reports",
+          "More users and roles",
+          "Priority help"
+        ],
+        "ai": "Highest monthly allowance",
+        "limits": "To be confirmed"
+      }
+    },
+    "helpTitle": "Not sure which plan fits?",
+    "helpBody": "Tell us about your business and we'll help you choose.",
+    "helpCta": "Contact us",
+    "faqTitle": "Questions about plans",
+    "faq": [
+      {
+        "q": "When will final prices be announced?",
+        "a": "Prices and plan limits will be published on this page before launch. Contact us if you'd like to be informed."
+      },
+      {
+        "q": "Is there a free trial?",
+        "a": "Trial options, if any, will be announced together with final pricing. We don't want to promise anything that isn't confirmed."
+      },
+      {
+        "q": "Which plan includes the AI assistant?",
+        "a": "The assistant is planned for every plan, with a different number of questions per month. Exact allowances will be confirmed with pricing."
+      },
+      {
+        "q": "Can I change plans later?",
+        "a": "Plans are designed so a business can move up as it grows. The exact process will be explained with final pricing."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "From your first product to your first question.",
+    "lead": "Setting up HelloKhata doesn't require training or technical knowledge. Here's the whole journey.",
+    "steps": [
+      {
+        "title": "Create your account",
+        "body": "Tell us your business name and type. It takes a few minutes."
+      },
+      {
+        "title": "Add your products",
+        "body": "Add the items you sell with their prices and current stock — one by one or a few at a time."
+      },
+      {
+        "title": "Record your day",
+        "body": "Make bills, record purchases and expenses by typing or speaking. Dues are tracked automatically."
+      },
+      {
+        "title": "Understand and ask",
+        "body": "Check reports whenever you like, or simply ask the assistant a question."
+      }
+    ],
+    "ledgerTitle": "Watch a ledger become HelloKhata"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Business software that speaks your language.",
+    "lead": "HelloKhata was started in Bangladesh with a simple belief: managing a business shouldn't require learning a foreign language — technical or otherwise.",
+    "storyTitle": "Why we're building HelloKhata",
+    "story": [
+      "Walk down any street in Bangladesh and you'll see businesses run with remarkable skill — often with nothing more than a ledger, a calculator and an excellent memory.",
+      "Most business software was not made for them. It's built around unfamiliar terms, complicated menus and the assumption that everyone wants to work in English.",
+      "HelloKhata starts from the other side: from how business owners already talk about their work. Ask in your own words, record a sale by speaking, and see your business clearly."
+    ],
+    "missionTitle": "Our mission",
+    "mission": "To make it easy for every business owner to understand their business and make better-informed decisions — in their own language.",
+    "valuesTitle": "What guides us",
+    "values": [
+      {
+        "title": "Simplicity first",
+        "body": "If a shopkeeper can't use it during a rush, it isn't done."
+      },
+      {
+        "title": "Honest by default",
+        "body": "We don't invent numbers, promises or results — in our product or our marketing."
+      },
+      {
+        "title": "Rooted here",
+        "body": "Designed around Bangladeshi businesses, language and ways of working."
+      },
+      {
+        "title": "Your data, your business",
+        "body": "Business information is treated with care and used to serve the business."
+      }
+    ],
+    "ctaTitle": "Want to talk to the team?"
+  },
+  "resources": {
+    "eyebrow": "Help Center",
+    "title": "How can we help?",
+    "lead": "Answers to common questions about getting started and using HelloKhata.",
+    "searchLabel": "Search the help center",
+    "searchPlaceholder": "Search, e.g. dues, stock, voice",
+    "categoriesLabel": "Topics",
+    "results": "{count} answers",
+    "noResults": "No answers matched your search. Try different words, or contact us.",
+    "categories": {
+      "all": "All topics",
+      "start": "Getting started",
+      "sales": "Sales & billing",
+      "stock": "Stock & purchases",
+      "ai": "AI assistant",
+      "account": "Account & data"
+    },
+    "articles": [
+      {
+        "cat": "start",
+        "q": "What do I need to start using HelloKhata?",
+        "a": "A smartphone or computer with internet access, your business name and the list of products you sell. You can add products gradually — you don't need everything on day one."
+      },
+      {
+        "cat": "start",
+        "q": "Can I use HelloKhata in Bangla?",
+        "a": "Yes. HelloKhata is designed for Bangla and English, and you can switch languages at any time."
+      },
+      {
+        "cat": "start",
+        "q": "Which types of businesses can use it?",
+        "a": "Grocery and retail shops, pharmacies, super shops, online sellers, F-commerce sellers and other businesses that buy, sell and keep accounts. Some solution modules are still planned — each Solutions page shows the current status."
+      },
+      {
+        "cat": "start",
+        "q": "Can I sell online with my own store?",
+        "a": "HelloKhata Online Store is designed to let sellers build a branded storefront connected to their products and orders. Check the Online Store page for the current status of each capability."
+      },
+      {
+        "cat": "ai",
+        "q": "Can HelloKhata reply to my Facebook messages?",
+        "a": "HelloKhata Social Commerce is designed to bring Page messages into a shared inbox with AI-assisted replies, but only for Pages and accounts you connect and authorise. It cannot read private Facebook Group posts. See the F-Commerce page for the current status of each channel."
+      },
+      {
+        "cat": "sales",
+        "q": "How do I record a sale on due?",
+        "a": "When making a bill, choose the customer and select due as the payment method, fully or partly. Their balance updates automatically."
+      },
+      {
+        "cat": "sales",
+        "q": "Can I record a sale by speaking?",
+        "a": "The voice assistant is designed to help you record and ask about business activity by speaking. Availability may depend on your plan."
+      },
+      {
+        "cat": "stock",
+        "q": "How does stock update?",
+        "a": "Stock goes down with every sale and up with every purchase you record. You can also adjust stock manually after a count."
+      },
+      {
+        "cat": "stock",
+        "q": "How do I include transport costs in a purchase?",
+        "a": "When recording a purchase, add transport, labour or other costs. They're included in the cost per unit of the goods."
+      },
+      {
+        "cat": "ai",
+        "q": "Where do the assistant's answers come from?",
+        "a": "From the business records in your account that you're authorised to access. If the information isn't recorded, the assistant can't know it."
+      },
+      {
+        "cat": "ai",
+        "q": "Does the assistant listen all the time?",
+        "a": "No. It only listens when you choose to ask a question."
+      },
+      {
+        "cat": "account",
+        "q": "Who can see my business information?",
+        "a": "People you authorise on your account. Details about data handling will be set out in our Privacy Policy."
+      },
+      {
+        "cat": "account",
+        "q": "How do I get help?",
+        "a": "Call us on +880 1734-114388, message us on WhatsApp at +880 1922-557436, email contact@hellokhata.com, or use the contact page. Tell us your business type and question, and we'll get back to you."
+      }
+    ],
+    "contactTitle": "Didn't find what you need?",
+    "contactCta": "Contact us",
+    "artAlt": "Hand-drawn illustration: a shopkeeper at the counter asks a question on the phone, and an answer from HelloKhata appears in a green speech bubble. An open guide and a cup of tea sit on the counter."
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your business.",
+    "lead": "Questions about getting started, support or partnerships — send us a message.",
+    "sideTitle": "Looking for a quick answer?",
+    "sideBody": "Many common questions are answered in the Help Center.",
+    "sideCta": "Visit the Help Center",
+    "form": {
+      "name": "Your name",
+      "phone": "Mobile number",
+      "email": "Email",
+      "business": "Business name",
+      "topic": "What is this about?",
+      "topics": {
+        "start": "Getting started",
+        "support": "Support",
+        "partnership": "Partnership",
+        "other": "Something else"
+      },
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you — your message has been sent. We'll get back to you soon.",
+      "privacy": "We'll use these details only to reply to your message."
+    },
+    "direct": {
+      "title": "Reach us directly",
+      "lead": "Call, message us on WhatsApp, email, or visit our office.",
+      "address": "Office",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "map": "Open in Google Maps"
+    }
+  },
+  "auth": {
+    "asideTitle": "Your business, in your language.",
+    "asideBody": "Sales, stock, expenses and dues — organised in one place.",
+    "signIn": {
+      "title": "Welcome back",
+      "lead": "Sign in to your HelloKhata account.",
+      "identifier": "Mobile number or email",
+      "password": "Password",
+      "show": "Show password",
+      "hide": "Hide password",
+      "submit": "Sign in",
+      "noAccount": "New to HelloKhata?",
+      "create": "Create an account",
+      "success": "Signed in successfully."
+    },
+    "signUp": {
+      "title": "Set up HelloKhata",
+      "lead": "Three short steps to get your business started.",
+      "stepOf": "Step {n} of {total}",
+      "steps": [
+        "Business type",
+        "Business details",
+        "Your account"
+      ],
+      "typeTitle": "What kind of business do you run?",
+      "businessName": "Business name",
+      "ownerName": "Your name",
+      "district": "District",
+      "phone": "Mobile number",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters",
+      "confirm": "Confirm password",
+      "agree": "I agree to the {terms} and {privacy}",
+      "terms": "Terms",
+      "privacy": "Privacy Policy",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "summary": "Summary",
+      "success": "Your account has been created."
+    }
+  },
+  "forms": {
+    "validation": {
+      "required": "Please fill in this field.",
+      "phone": "Enter a valid Bangladeshi mobile number, e.g. 01712345678.",
+      "email": "Enter a valid email address.",
+      "identifier": "Enter a mobile number or email address.",
+      "minLength": "Use at least {n} characters.",
+      "match": "Passwords don't match.",
+      "agree": "Please accept the terms to continue.",
+      "type": "Please choose a business type.",
+      "fixErrors": "Please correct the highlighted fields."
+    },
+    "notConnected": {
+      "title": "Not connected yet",
+      "body": "This form isn't connected to HelloKhata's servers yet, so nothing was sent or saved. Your details stay on this page."
+    },
+    "error": {
+      "title": "Something went wrong",
+      "body": "We couldn't complete your request. Please try again in a moment."
+    }
+  },
+  "footer": {
+    "tagline": "Voice-first, AI-powered business management — made in Bangladesh, in your language.",
+    "product": "Product",
+    "solutions": "Solutions",
+    "company": "Company",
+    "help": "Help",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "rights": "© {year} HelloKhata. All rights reserved.",
+    "languageLabel": "Language",
+    "contact": "Contact"
+  },
+  "legal": {
+    "draft": "Draft — this page is a placeholder and must be reviewed by a qualified legal professional before publication.",
+    "updated": "Last updated: to be confirmed",
+    "privacy": {
+      "title": "Privacy Policy",
+      "sections": [
+        {
+          "h": "Information we collect",
+          "p": "This section will describe the information HelloKhata collects, such as account details and the business records you enter."
+        },
+        {
+          "h": "How we use information",
+          "p": "This section will explain how information is used to provide and improve the service, including the AI assistant."
+        },
+        {
+          "h": "Who can access it",
+          "p": "This section will describe access controls, authorised users and any service providers involved."
+        },
+        {
+          "h": "Your choices",
+          "p": "This section will explain how you can access, correct, export or delete your information."
+        },
+        {
+          "h": "Contact",
+          "p": "Questions about privacy can be emailed to contact@hellokhata.com or sent through the contact page."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "sections": [
+        {
+          "h": "Using HelloKhata",
+          "p": "This section will set out the conditions for creating an account and using the service."
+        },
+        {
+          "h": "Plans and payment",
+          "p": "This section will describe plans, billing and payment once they are finalised."
+        },
+        {
+          "h": "Your content",
+          "p": "This section will explain ownership and responsibility for the business records you enter."
+        },
+        {
+          "h": "Limitations",
+          "p": "This section will describe the limits of the service, including AI-generated answers."
+        },
+        {
+          "h": "Contact",
+          "p": "Questions about these terms can be emailed to contact@hellokhata.com or sent through the contact page."
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "This page isn't in the ledger.",
+    "body": "The page you're looking for doesn't exist or has moved."
+  },
+  "status": {
+    "available": "Available",
+    "beta": "Beta",
+    "planned": "Planned",
+    "legend": "Every capability is labelled. Planned features are not available yet and may change."
+  },
+  "modules": {
+    "pos": {
+      "name": "POS & billing",
+      "desc": "Fast bills, payments and receipts."
+    },
+    "inventory": {
+      "name": "Inventory",
+      "desc": "Stock that updates with every sale and purchase."
+    },
+    "purchases": {
+      "name": "Purchases & suppliers",
+      "desc": "Purchases with transport and labour costs."
+    },
+    "expenses": {
+      "name": "Expenses & records",
+      "desc": "Every expense, organised by category."
+    },
+    "customers": {
+      "name": "Customers & dues",
+      "desc": "Customer list, dues and payment history."
+    },
+    "reports": {
+      "name": "Reports",
+      "desc": "Daily, weekly and monthly business reports."
+    },
+    "assistant": {
+      "name": "AI assistant",
+      "desc": "Ask about your business in Bangla or English."
+    },
+    "batchExpiry": {
+      "name": "Batch & expiry tracking",
+      "desc": "Know which batches expire soon."
+    },
+    "multiBranch": {
+      "name": "Multi-branch management",
+      "desc": "Monitor every store from one central view."
+    },
+    "warehouse": {
+      "name": "Warehouse management",
+      "desc": "Warehouse stock and transfers between locations."
+    },
+    "integratedPos": {
+      "name": "Integrated POS",
+      "desc": "Checkout, billing and sales recording at every counter."
+    },
+    "centralInventory": {
+      "name": "Centralised inventory",
+      "desc": "Stock visibility across branches and warehouses."
+    },
+    "hrm": {
+      "name": "HRM & workforce",
+      "desc": "Staff records, roles and shifts."
+    },
+    "bulkSms": {
+      "name": "Bulk SMS",
+      "desc": "Notifications and campaigns to customer groups."
+    },
+    "consolidatedReports": {
+      "name": "Consolidated reporting",
+      "desc": "Business-wide and branch-level performance."
+    },
+    "roleAccess": {
+      "name": "Role-based access",
+      "desc": "The right access for owners, managers and staff."
+    },
+    "builder": {
+      "name": "Drag-and-drop store builder",
+      "desc": "Design your storefront section by section."
+    },
+    "themes": {
+      "name": "Premium themes",
+      "desc": "Professionally designed starting points."
+    },
+    "customDomain": {
+      "name": "Custom domain",
+      "desc": "Your store at your own web address."
+    },
+    "payments": {
+      "name": "Payment gateway integration",
+      "desc": "Online payment at checkout."
+    },
+    "courier": {
+      "name": "Courier integration",
+      "desc": "Hand orders to delivery partners and track them."
+    },
+    "orderSync": {
+      "name": "Connected products & orders",
+      "desc": "Online orders linked to products and stock."
+    },
+    "inbox": {
+      "name": "Shared inbox",
+      "desc": "Conversations from connected channels in one place."
+    },
+    "aiAgent": {
+      "name": "AI sales agent",
+      "desc": "AI-assisted replies from your catalogue, with human handover."
+    },
+    "contentStudio": {
+      "name": "AI content studio",
+      "desc": "Captions and descriptions in Bangla, Banglish and English."
+    },
+    "socialManager": {
+      "name": "Social media manager",
+      "desc": "Plan, schedule and organise posts."
+    },
+    "adsManager": {
+      "name": "Advertising manager",
+      "desc": "Follow campaigns from spend to orders."
+    },
+    "crm": {
+      "name": "Leads & CRM",
+      "desc": "Turn inquiries into organised, assigned leads."
+    },
+    "ordersRetention": {
+      "name": "Orders, retention & analytics",
+      "desc": "From order to delivery to repeat purchase."
+    },
+    "prescriptionOcr": {
+      "name": "Prescription OCR",
+      "desc": "Helps read handwritten prescriptions for a person to review."
+    }
+  },
+  "channels": {
+    "messenger": {
+      "name": "Facebook Messenger",
+      "desc": "Messages to your Facebook Page."
+    },
+    "instagram": {
+      "name": "Instagram messaging",
+      "desc": "Direct messages to your Instagram professional account."
+    },
+    "whatsapp": {
+      "name": "WhatsApp",
+      "desc": "Business messaging on WhatsApp."
+    },
+    "metaAds": {
+      "name": "Meta advertising data",
+      "desc": "Campaign results from your ad account."
+    },
+    "paymentGateway": {
+      "name": "Payment gateways",
+      "desc": "Online payments at checkout."
+    },
+    "courierPartner": {
+      "name": "Courier partners",
+      "desc": "Pickup, delivery and tracking."
+    }
+  },
+  "ecosystem": {
+    "eyebrow": "One connected platform",
+    "title": "Start with the essentials. Add what your business needs next.",
+    "lead": "Every HelloKhata solution sits on the same core — one set of products, stock, customers and reports.",
+    "hint": "Select a solution to see what it adds",
+    "note": "Modules, plan availability and pricing may differ. Each capability shows its current status.",
+    "explore": "Explore",
+    "groups": {
+      "core": {
+        "name": "HelloKhata Core",
+        "tagline": "Everyday business management"
+      },
+      "supershop": {
+        "name": "HelloKhata for Super Shops",
+        "tagline": "Multi-branch retail operations"
+      },
+      "online": {
+        "name": "HelloKhata Online Store",
+        "tagline": "Your own branded storefront"
+      },
+      "social": {
+        "name": "HelloKhata Social Commerce",
+        "tagline": "AI-assisted social selling"
+      }
+    }
+  },
+  "pharmacyDemo": {
+    "title": "Batches and expiry",
+    "filter": "Expiring within 60 days",
+    "columns": {
+      "medicine": "Medicine",
+      "batch": "Batch",
+      "expiry": "Expiry",
+      "stock": "Stock"
+    },
+    "daysLeft": "{n} days left",
+    "soon": "Expires soon",
+    "names": {
+      "paracetamol": "Paracetamol 500 mg",
+      "omeprazole": "Omeprazole 20 mg",
+      "metformin": "Metformin 500 mg",
+      "cetirizine": "Cetirizine 10 mg",
+      "orsaline": "Oral saline",
+      "amlodipine": "Amlodipine 5 mg"
+    }
+  },
+  "supershop": {
+    "eyebrow": "HelloKhata for Super Shops",
+    "networkAlt": "Hand-drawn illustration of a flagship super shop connected by green data lines to three branches and a warehouse.",
+    "story": {
+      "eyebrow": "From shop floor to control center",
+      "title": "Your whole network, in one view.",
+      "steps": [
+        {
+          "title": "Every location, connected",
+          "body": "The flagship store, branches and warehouse share one set of products, prices and customers."
+        },
+        {
+          "title": "Live numbers from every counter",
+          "body": "Sales recorded at each branch flow into one dashboard as they happen."
+        },
+        {
+          "title": "Decide from the center",
+          "body": "Spot low stock, move goods from the warehouse and compare branches — without visiting each one."
+        }
+      ]
+    },
+    "dashboard": {
+      "title": "Multi-branch dashboard",
+      "locationsLabel": "Location",
+      "all": "All branches",
+      "locations": {
+        "dhanmondi": "Dhanmondi",
+        "mirpur": "Mirpur",
+        "uttara": "Uttara",
+        "ctg": "Chattogram",
+        "warehouse": "Tejgaon warehouse"
+      },
+      "sales": "Today's sales",
+      "orders": "Bills today",
+      "staffOnShift": "Staff on shift",
+      "target": "Daily target",
+      "stockTitle": "Stock across locations",
+      "low": "Low",
+      "ok": "OK",
+      "weekTitle": "Sales, last 7 days (thousand Tk)",
+      "warehouseNote": "The warehouse doesn't sell directly — it supplies branches.",
+      "transfer": {
+        "title": "Stock transfer",
+        "from": "From",
+        "to": "To",
+        "item": "Product",
+        "qty": "Quantity",
+        "create": "Create transfer",
+        "empty": "No transfers yet. Try moving stock to a branch that's running low.",
+        "draft": "Draft — demo only",
+        "insufficient": "Not enough stock at the source.",
+        "same": "Choose two different locations.",
+        "invalidQty": "Enter a quantity above zero."
+      }
+    },
+    "capabilitiesTitle": "Built for the complexity of growing retail",
+    "capabilitiesLead": "What HelloKhata for Super Shops covers — and the status of each part.",
+    "pos": {
+      "title": "Integrated POS at every counter",
+      "body": "Checkout, billing and sales recording — each bill updates the branch's stock and the central reports."
+    },
+    "hrm": {
+      "title": "HRM and workforce",
+      "body": "Keep staff records, roles, branches and shifts organised.",
+      "columns": {
+        "name": "Name",
+        "role": "Role",
+        "location": "Location",
+        "shift": "Shift",
+        "status": "Status"
+      },
+      "roles": {
+        "manager": "Branch manager",
+        "cashier": "Cashier",
+        "storekeeper": "Storekeeper",
+        "sales": "Sales associate"
+      },
+      "shifts": {
+        "morning": "Morning",
+        "evening": "Evening"
+      },
+      "on": "On shift",
+      "off": "Off",
+      "filterLabel": "Show",
+      "allStaff": "All staff",
+      "onlyOn": "On shift now"
+    },
+    "sms": {
+      "title": "Bulk SMS",
+      "body": "Reach customer groups with offers and notifications.",
+      "segmentLabel": "Send to",
+      "segments": {
+        "all": "All customers",
+        "repeat": "Repeat customers",
+        "dues": "Customers with dues"
+      },
+      "messageLabel": "Message",
+      "defaultMessage": "Dear customer, special prices on rice and oil at every branch this Friday. - Notun Bazar Super Shop",
+      "chars": "{n} characters",
+      "parts": "{n} SMS per customer",
+      "recipients": "{n} recipients",
+      "total": "{n} SMS in total",
+      "unicodeNote": "Bangla text is sent as Unicode: up to 70 characters in one SMS, 67 per part when longer.",
+      "gsmNote": "Plain English text: up to 160 characters in one SMS, 153 per part when longer.",
+      "send": "Send campaign",
+      "demoNote": "Demo only — no messages are sent from this page."
+    },
+    "roles": {
+      "title": "Role-based access",
+      "body": "Owners see everything. Managers run their branch. Cashiers sell. Choose a role to see what it can do.",
+      "list": {
+        "owner": "Owner",
+        "manager": "Branch manager",
+        "cashier": "Cashier"
+      },
+      "permissions": {
+        "viewAll": "See all branches",
+        "reports": "View business reports",
+        "stock": "Adjust stock",
+        "transfer": "Approve stock transfers",
+        "pos": "Make bills at the counter",
+        "staff": "Manage staff and shifts",
+        "sms": "Send SMS campaigns",
+        "settings": "Change prices and settings"
+      },
+      "allowed": "Allowed",
+      "denied": "Not allowed"
+    },
+    "ctaTitle": "Planning for more than one branch?",
+    "ctaBody": "Tell us about your stores and warehouses. We'll walk you through what's available today and what's coming."
+  },
+  "onlineStore": {
+    "eyebrow": "HelloKhata Online Store",
+    "story": {
+      "eyebrow": "From shop to brand",
+      "title": "From Selling Products to Building Your Online Brand.",
+      "steps": [
+        {
+          "title": "A seller and their products",
+          "body": "Handmade bags, saris, gadgets or groceries — it starts with what you already sell."
+        },
+        {
+          "title": "Products become a catalogue",
+          "body": "Each product gets a photo, price and stock count in HelloKhata."
+        },
+        {
+          "title": "The catalogue meets the editor",
+          "body": "Your products flow straight into the storefront editor."
+        },
+        {
+          "title": "Choose a premium theme",
+          "body": "Start from a design made for your kind of business."
+        },
+        {
+          "title": "Change it, see it",
+          "body": "Colours, fonts and sections update the store as you edit."
+        },
+        {
+          "title": "Your own address",
+          "body": "Connect a custom domain so customers find you by name."
+        },
+        {
+          "title": "A customer orders",
+          "body": "Shoppers browse, add to cart and place an order."
+        },
+        {
+          "title": "The order reaches you",
+          "body": "It lands in your order list, linked to the product and stock."
+        }
+      ],
+      "seller": "Nakshi Ghor",
+      "domain": "nakshighor.com",
+      "orderToast": "New order · 2 items",
+      "manage": "Orders"
+    },
+    "builder": {
+      "eyebrow": "Store builder",
+      "title": "Design your storefront — try it here.",
+      "lead": "This is a working prototype of the editor. Pick a theme, rearrange sections and change the look; the preview updates instantly.",
+      "panels": {
+        "theme": "Theme",
+        "sections": "Sections",
+        "style": "Style"
+      },
+      "accent": "Accent colour",
+      "font": "Font",
+      "fonts": {
+        "modern": "Modern",
+        "classic": "Classic",
+        "friendly": "Friendly"
+      },
+      "banner": "Banner heading",
+      "columns": "Products per row",
+      "sectionNames": {
+        "hero": "Banner",
+        "categories": "Categories",
+        "collection": "Product collection",
+        "story": "Brand story",
+        "features": "Highlights",
+        "footer": "Footer"
+      },
+      "add": "Add",
+      "remove": "Remove",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "dragHint": "Drag to reorder, or use the arrows.",
+      "device": {
+        "label": "Preview size",
+        "desktop": "Desktop",
+        "mobile": "Mobile"
+      },
+      "publish": "Publish",
+      "publishNote": "This is a preview. Publishing a real store needs a HelloKhata account, payment and delivery setup, and a connected domain.",
+      "shopNow": "Shop now",
+      "addToCart": "Add to cart",
+      "outOfStock": "Out of stock",
+      "left": "{n} left",
+      "cart": "Cart",
+      "placeOrder": "Place demo order",
+      "categories": "Shop by category",
+      "storyTitle": "Our story",
+      "highlights": [
+        "Made in Bangladesh",
+        "Carefully packed",
+        "Order online or by message"
+      ],
+      "ordersTitle": "Seller view · Orders",
+      "ordersEmpty": "Add products to the cart in the preview and place a demo order.",
+      "orderPlaced": "Order #{id} · {items} items",
+      "stockUpdated": "Stock updated",
+      "sampleNote": "Demo orders stay on this page. Nothing is charged or delivered."
+    },
+    "themes": {
+      "eyebrow": "Premium themes",
+      "title": "A starting point with personality.",
+      "lead": "Each theme is designed for a kind of business. Preview one, then open it in the editor above.",
+      "tryInEditor": "Open in editor",
+      "items": {
+        "fashion": {
+          "name": "Nakshi",
+          "desc": "Fashion & lifestyle",
+          "store": "Nakshi Ghor",
+          "banner": "Handwoven for every occasion",
+          "products": [
+            "Jamdani sari",
+            "Cotton panjabi",
+            "Nakshi kantha",
+            "Leather sandals",
+            "Block-print kurti",
+            "Jute tote bag"
+          ],
+          "prices": [
+            6800,
+            1490,
+            3200,
+            1850,
+            1290,
+            650
+          ]
+        },
+        "electronics": {
+          "name": "Circuit",
+          "desc": "Electronics & gadgets",
+          "store": "Volt House",
+          "banner": "Gadgets that keep up with you",
+          "products": [
+            "Wireless earbuds",
+            "Power bank 10000mAh",
+            "Smart watch",
+            "USB-C charger",
+            "Bluetooth speaker",
+            "Phone stand"
+          ],
+          "prices": [
+            2490,
+            1650,
+            3990,
+            890,
+            2150,
+            450
+          ]
+        },
+        "grocery": {
+          "name": "Bazaar",
+          "desc": "Grocery & retail",
+          "store": "Fresh Bazaar",
+          "banner": "Daily needs, delivered fresh",
+          "products": [
+            "Miniket rice 5 kg",
+            "Soybean oil 2 L",
+            "Masoor lentils 1 kg",
+            "Fresh eggs (12)",
+            "Sugar 1 kg",
+            "Tea leaves 400 g"
+          ],
+          "prices": [
+            390,
+            380,
+            140,
+            156,
+            135,
+            240
+          ]
+        },
+        "pharmacy": {
+          "name": "Care",
+          "desc": "Pharmacy & wellness",
+          "store": "Sheba Care",
+          "banner": "Everyday health essentials",
+          "products": [
+            "Hand sanitiser",
+            "Digital thermometer",
+            "Face masks (50)",
+            "Oral saline (20)",
+            "Vitamin C tablets",
+            "First-aid kit"
+          ],
+          "prices": [
+            180,
+            450,
+            350,
+            120,
+            260,
+            990
+          ]
+        },
+        "general": {
+          "name": "Market",
+          "desc": "General commerce",
+          "store": "Nitto Store",
+          "banner": "Everything you need, in one place",
+          "products": [
+            "Stainless bottle",
+            "Notebook set",
+            "Table lamp",
+            "Kitchen knife set",
+            "Wall clock",
+            "Storage boxes"
+          ],
+          "prices": [
+            550,
+            320,
+            1150,
+            980,
+            760,
+            690
+          ]
+        }
+      }
+    },
+    "domain": {
+      "eyebrow": "Custom domain",
+      "title": "Your store, at your own address.",
+      "lead": "Use a domain that matches your brand. Connecting one depends on your domain provider, subscription and technical setup.",
+      "label": "Domain name",
+      "placeholder": "yourbrand.com",
+      "check": "Preview",
+      "invalid": "Enter a domain like yourbrand.com",
+      "steps": [
+        "Own or buy a domain from any registrar",
+        "Add the DNS records shown during setup",
+        "Wait for verification",
+        "Your store goes live with a security certificate"
+      ],
+      "status": "Status",
+      "notConnected": "Not connected — preview only"
+    },
+    "payments": {
+      "eyebrow": "Checkout & payments",
+      "title": "A checkout your customers recognise.",
+      "lead": "Payment options depend on the gateways HelloKhata integrates. Each option shows its current status.",
+      "methods": {
+        "cod": "Cash on delivery",
+        "mfs": "Mobile financial services",
+        "card": "Debit / credit card"
+      },
+      "note": "No payment gateway is shown as live until the integration is confirmed. Gateway names will appear here once available."
+    },
+    "courier": {
+      "eyebrow": "Delivery",
+      "title": "From “order placed” to “delivered”.",
+      "lead": "Follow each order through fulfilment. Courier connections depend on the partners HelloKhata integrates.",
+      "stages": {
+        "placed": "Order placed",
+        "packed": "Packed",
+        "handedOver": "Handed to courier",
+        "inTransit": "In transit",
+        "delivered": "Delivered"
+      },
+      "next": "Next step",
+      "reset": "Start again",
+      "order": "Order #NG-1024",
+      "note": "Demo timeline. Supported courier partners will be listed here once integrations are confirmed."
+    },
+    "disclaimer": "Launching a live store needs account setup, payment and delivery configuration, and (optionally) a custom domain. Statuses below show what is available today.",
+    "ctaTitle": "Ready to plan your online store?",
+    "ctaBody": "Tell us what you sell. We'll show you what's available now and what's on the way."
+  },
+  "fcommerce": {
+    "eyebrow": "HelloKhata Social Commerce",
+    "flow": {
+      "eyebrow": "The connected journey",
+      "title": "From a campaign to a customer who comes back.",
+      "lead": "Every step connects to the next, so no interested customer gets lost.",
+      "steps": [
+        "Campaign",
+        "Customer inquiry",
+        "AI conversation",
+        "Human help if needed",
+        "Order",
+        "Fulfilment",
+        "Retention"
+      ]
+    },
+    "inbox": {
+      "eyebrow": "Shared inbox · AI sales agent",
+      "title": "A conversation that knows your catalogue.",
+      "lead": "Pick what the customer says next. The assistant answers only from the sample catalogue and stock shown on the right — and hands over to a person when it isn't sure.",
+      "listTitle": "Conversations",
+      "conversations": [
+        {
+          "name": "Rafiq Ahmed",
+          "preview": "How much is this panjabi?",
+          "channel": "messenger"
+        },
+        {
+          "name": "Tania Sultana",
+          "preview": "Is there a blue one?",
+          "channel": "instagram"
+        },
+        {
+          "name": "Shuvo Das",
+          "preview": "Order received, thanks!",
+          "channel": "messenger"
+        }
+      ],
+      "statuses": {
+        "ai": "AI replying",
+        "human": "Needs staff",
+        "ordered": "Order drafted",
+        "idle": "Open"
+      },
+      "customerSays": "Customer says",
+      "aiLabel": "AI assistant",
+      "staffName": "Sumaiya · Sales team",
+      "handedOver": "Handed over to Sumaiya",
+      "assigned": "Assigned to",
+      "unassigned": "Unassigned",
+      "profileTitle": "Customer",
+      "profileSince": "Customer since August",
+      "previousOrders": "2 previous orders",
+      "productTitle": "From catalogue",
+      "productName": "Cotton panjabi — olive",
+      "stockTitle": "Stock (sample)",
+      "orderTitle": "Order draft",
+      "orderEmpty": "An order draft appears here when the customer confirms.",
+      "orderDraft": "Draft — awaiting staff confirmation",
+      "reset": "Start again",
+      "channelNote": "Channel names show where a conversation would come from. Channel connections are labelled with their current status below.",
+      "script": {
+        "q1": "এই পাঞ্জাবিটার দাম কত?",
+        "a1": "এই পাঞ্জাবিটার দাম {price} টাকা। আপনি কোন সাইজটি নিতে চান?",
+        "q2": "{size} সাইজ আছে?",
+        "checking": "পণ্যের বর্তমান মজুত যাচাই করে আপনাকে জানাচ্ছি।",
+        "inStock": "হ্যাঁ, {size} সাইজে এখন {qty}টি আছে। অর্ডার করতে চাইলে আপনার নাম, ঠিকানা আর ফোন নম্বর পাঠান।",
+        "outStock": "দুঃখিত, {size} সাইজ এখন মজুতে নেই। এখন পাওয়া যাচ্ছে: {sizes}।",
+        "q3": "অর্ডার করতে চাই। রফিক আহমেদ, মিরপুর ১০, ঢাকা।",
+        "a3": "ধন্যবাদ! আপনার অর্ডারের খসড়া তৈরি হয়েছে—{size} সাইজ, ১টি, {price} টাকা। আমাদের টিম শিগগিরই নিশ্চিত করবে।",
+        "qHard": "ক্রেডিট কার্ডে কিস্তিতে দেওয়া যাবে?",
+        "handover": "এ বিষয়ে নিশ্চিত তথ্য দিতে আমাদের টিমের একজন সদস্য আপনার সঙ্গে যুক্ত হচ্ছেন।",
+        "staffReply": "আসসালামু আলাইকুম, আমি সুমাইয়া। কিস্তির বিষয়টি দেখে এখনই জানাচ্ছি।"
+      },
+      "scriptNote": "The demo conversation is written in Bangla, as customers in Bangladesh would write it."
+    },
+    "modulesTitle": "Everything around the conversation",
+    "content": {
+      "eyebrow": "AI content studio",
+      "title": "Captions in the language your customers use.",
+      "lead": "Choose a product, a language and a tone. These outputs are sample text written for this demo — not a live AI model.",
+      "product": "Product",
+      "language": "Language",
+      "languages": {
+        "bn": "Bangla",
+        "banglish": "Banglish",
+        "en": "English"
+      },
+      "tone": "Tone",
+      "tones": {
+        "friendly": "Friendly",
+        "offer": "Offer"
+      },
+      "generate": "Show sample",
+      "page": "Nakshi Ghor",
+      "sponsoredless": "Post preview",
+      "outputs": {
+        "bn": {
+          "friendly": "ঈদের সকালটা হোক আরামদায়ক 🌿 নরম সুতির জলপাই রঙের পাঞ্জাবি, এখন M, L সাইজে। দাম ১,৪৯০ টাকা। অর্ডার করতে মেসেজ দিন।",
+          "offer": "এই সপ্তাহের বিশেষ অফার! সুতির পাঞ্জাবি মাত্র ১,৪৯০ টাকায়। স্টক সীমিত—আজই মেসেজ করে অর্ডার নিশ্চিত করুন।"
+        },
+        "banglish": {
+          "friendly": "Eid er shokal ta hok comfy 🌿 Soft cotton olive panjabi, ekhon M ar L size e. Dam 1,490 taka. Order korte inbox korun!",
+          "offer": "Ei shoptaher special offer! Cotton panjabi matro 1,490 taka. Stock limited — ajkei message kore order confirm korun."
+        },
+        "en": {
+          "friendly": "Make Eid morning comfortable 🌿 Soft cotton panjabi in olive, now in M and L. Tk 1,490. Message us to order.",
+          "offer": "This week's special: cotton panjabi for just Tk 1,490. Limited stock — message us today to confirm your order."
+        }
+      }
+    },
+    "social": {
+      "eyebrow": "Social media manager",
+      "title": "A calendar for every connected page.",
+      "lead": "Plan posts, see what's scheduled and keep content organised. Publishing depends on supported channels and their permissions.",
+      "days": [
+        "Sat",
+        "Sun",
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
+      "statuses": {
+        "draft": "Draft",
+        "scheduled": "Scheduled",
+        "published": "Published"
+      },
+      "filterLabel": "Channel",
+      "filters": {
+        "all": "All",
+        "facebook": "Facebook",
+        "instagram": "Instagram"
+      },
+      "posts": {
+        "newArrival": "New arrivals: Eid panjabi",
+        "offer": "Weekend offer",
+        "behind": "Behind the scenes: packing",
+        "review": "Customer photo (with permission)",
+        "restock": "Back in stock: kurti",
+        "live": "Live session plan"
+      },
+      "selectHint": "Select a post to see its details",
+      "channelLabel": "Channel",
+      "statusLabel": "Status"
+    },
+    "ads": {
+      "eyebrow": "Advertising manager",
+      "title": "See which campaigns bring real orders.",
+      "lead": "Follow a campaign from reach to messages to orders. This demo only displays sample results — it does not create, launch or change ads.",
+      "names": {
+        "eid": "Eid collection",
+        "winter": "Winter shawls",
+        "repeat": "Repeat customers"
+      },
+      "columns": {
+        "spend": "Spend",
+        "reach": "Reach",
+        "messages": "Messages",
+        "orders": "Orders",
+        "revenue": "Sales"
+      },
+      "funnel": "From reach to orders",
+      "perTaka": "Sales per taka spent"
+    },
+    "crm": {
+      "eyebrow": "Leads & CRM",
+      "title": "Every interested customer, followed up.",
+      "lead": "Inquiries become lead cards with a source, stage and owner — instead of messages lost in an inbox.",
+      "stages": {
+        "new": "New",
+        "interested": "Interested",
+        "followUp": "Follow-up",
+        "won": "Ordered"
+      },
+      "sources": {
+        "messenger": "Messenger",
+        "instagram": "Instagram",
+        "ad": "Ad"
+      },
+      "move": "Move to next stage",
+      "assign": "Assign",
+      "team": [
+        "Sumaiya",
+        "Nayeem",
+        "Unassigned"
+      ]
+    },
+    "orders": {
+      "eyebrow": "Orders, retention & analytics",
+      "title": "After the chat: delivered, and remembered.",
+      "lead": "Orders from conversations are tracked to delivery, and happy customers become repeat customers.",
+      "stages": {
+        "confirmed": "Confirmed",
+        "packed": "Packed",
+        "shipped": "Shipped",
+        "delivered": "Delivered"
+      },
+      "paid": "Paid",
+      "unpaid": "Payment pending",
+      "columns": {
+        "order": "Order",
+        "customer": "Customer",
+        "amount": "Amount",
+        "stage": "Status",
+        "payment": "Payment"
+      },
+      "retentionTitle": "Repeat customers",
+      "retentionBody": "{n} customers ordered twice or more this month",
+      "conversionTitle": "Conversations that became orders",
+      "advance": "Advance status"
+    },
+    "integrations": {
+      "eyebrow": "Integrations & trust",
+      "title": "Clear about what connects — and how.",
+      "lead": "Each channel needs your permission and the platform's approval. Statuses show what is available today.",
+      "permissions": "Permissions needed",
+      "steps": "To connect",
+      "items": {
+        "messenger": {
+          "permissions": [
+            "Admin access to your Facebook Page",
+            "Permission to read and reply to Page messages"
+          ],
+          "steps": [
+            "Sign in with Facebook",
+            "Choose the Page",
+            "Approve requested permissions"
+          ]
+        },
+        "instagram": {
+          "permissions": [
+            "An Instagram professional account linked to a Facebook Page",
+            "Permission to manage messages"
+          ],
+          "steps": [
+            "Link Instagram to your Page",
+            "Sign in with Facebook",
+            "Approve messaging access"
+          ]
+        },
+        "whatsapp": {
+          "permissions": [
+            "A WhatsApp Business account",
+            "A verified business phone number"
+          ],
+          "steps": [
+            "Business verification",
+            "Number registration",
+            "Message template approval"
+          ]
+        },
+        "metaAds": {
+          "permissions": [
+            "Access to your ad account",
+            "Permission to read campaign results"
+          ],
+          "steps": [
+            "Sign in with Facebook",
+            "Select ad account",
+            "Approve read access"
+          ]
+        },
+        "paymentGateway": {
+          "permissions": [
+            "A merchant account with the gateway"
+          ],
+          "steps": [
+            "Apply for a merchant account",
+            "Add your credentials securely",
+            "Test a payment"
+          ]
+        },
+        "courierPartner": {
+          "permissions": [
+            "A merchant account with the courier"
+          ],
+          "steps": [
+            "Connect your courier account",
+            "Set pickup address",
+            "Book a test pickup"
+          ]
+        }
+      },
+      "groupsNote": "HelloKhata only works with Pages, accounts and messages you connect and authorise. It cannot read private Facebook Group posts or members' messages.",
+      "logosNote": "Platform names are used for identification only."
+    },
+    "ctaTitle": "Selling on Facebook or Instagram?",
+    "ctaBody": "Tell us how you sell today. We'll show you what's available now and what's coming to HelloKhata Social Commerce."
+  },
+  "pricingModules": {
+    "title": "Solution modules",
+    "lead": "Super Shop, Online Store and Social Commerce are modules on top of HelloKhata Core. What each plan includes will be confirmed with final pricing.",
+    "module": "Module",
+    "entitlement": {
+      "included": "Included",
+      "addon": "Add-on",
+      "unavailable": "Not available",
+      "tbd": "To be confirmed"
+    }
+  },
+  "grocery": {
+    "hero": {
+      "eyebrow": "For grocery and retail shops",
+      "title1": "Your shop's accounts,",
+      "title2": "at your fingertips.",
+      "lead": "From the day's sales to stock, purchases and dues — keep every account simply. And when you need to, just ask in Bangla.",
+      "primary": "Start using the app",
+      "secondary": "See how it works",
+      "note": "A small shop deserves simple accounts.",
+      "tagline": "Your business, in your language.",
+      "sceneAlt": "Hand-drawn grocery shop: shelves of rice, lentils, oil and sugar; behind the counter a shopkeeper hands goods to a customer. A smartphone on the counter shows today's sales in the HelloKhata app."
+    },
+    "app": {
+      "shop": "Maa General Store",
+      "greeting": "Today's accounts",
+      "todaySales": "Today's sales",
+      "salesCount": "{n} sales",
+      "newSale": "New sale",
+      "newPurchase": "New purchase",
+      "stock": "Stock",
+      "dues": "Dues",
+      "expenses": "Expenses",
+      "purchases": "Purchases",
+      "ask": "Ask in Bangla",
+      "nav": {
+        "home": "Home",
+        "sales": "Sales",
+        "stock": "Stock",
+        "dues": "Dues"
+      },
+      "toastSale": "New sale added",
+      "sample": "Sample data",
+      "search": "Search products",
+      "qty": "Quantity",
+      "price": "Price",
+      "total": "Total",
+      "saveSale": "Save sale",
+      "cash": "Cash",
+      "due": "Due",
+      "low": "Running low",
+      "ok": "In stock",
+      "out": "Out",
+      "stockTitle": "Product stock",
+      "buyingPrice": "Bought at",
+      "sellingPrice": "Sells at",
+      "purchaseTitle": "New purchase",
+      "supplier": "Supplier",
+      "supplierName": "Karim Traders",
+      "goods": "Goods",
+      "transport": "Transport",
+      "labour": "Labour",
+      "otherCost": "Other costs",
+      "perKg": "Real cost per kg",
+      "paid": "Paid",
+      "supplierDue": "Owed to supplier",
+      "duesTitle": "Customer dues",
+      "totalDue": "Total due",
+      "recordPayment": "Record payment",
+      "since": "Since {date}",
+      "history": {
+        "bought": "Bought on due",
+        "paid": "Paid"
+      },
+      "voiceTitle": "HelloKhata Assistant",
+      "recent": "Recent sales",
+      "walkIn": "Walk-in customer",
+      "justNow": "just now",
+      "lowList": "Running low"
+    },
+    "ledger": {
+      "eyebrow": "From khata to mobile",
+      "title": "Your ledger's accounts, now simpler.",
+      "lead": "Keep every day's transactions organised, so the figures are easy to find when you need them.",
+      "steps": [
+        "A sale is written in the ledger",
+        "The handwriting becomes a digital entry",
+        "The mobile app comes into view",
+        "The sale joins the business record",
+        "Every transaction in one place"
+      ],
+      "handItem": "চাল ৫ কেজি",
+      "handAmount": "৩৯০/-",
+      "handCustomer": "নগদ",
+      "note": "Keep the habit of checking your accounts — the app makes it easier."
+    },
+    "sales": {
+      "eyebrow": "Sales",
+      "title": "Record sales simply.",
+      "lead": "Pick a product, enter the sale, and keep the day's transactions in one place.",
+      "pick": "Choose a product",
+      "decrease": "Decrease quantity",
+      "increase": "Increase quantity",
+      "saved": "Sale added to the list (demo)",
+      "note": "Products and prices are samples — your shop's prices will differ.",
+      "points": [
+        "Find products by name",
+        "The total updates as the quantity changes",
+        "Record it as cash or due — however it was sold"
+      ]
+    },
+    "stock": {
+      "eyebrow": "Stock",
+      "title": "Know how much of each product you have.",
+      "lead": "Keep your stock organised, so the information is there when you need it.",
+      "sell": "Sell {item}",
+      "reset": "Start again",
+      "hint": "Pick a product from the shelf and watch how stock changes after a sale.",
+      "lowNote": "A product is marked “running low” when it drops below a set level."
+    },
+    "purchase": {
+      "eyebrow": "Purchases & expenses",
+      "title": "Keep purchases and expenses organised too.",
+      "lead": "When goods arrive from a supplier, record transport and labour along with the price — so you know what it really cost to bring products into the shop.",
+      "include": "Include extra costs",
+      "points": [
+        "Buying price of goods",
+        "Transport and labour",
+        "What you paid the supplier, and what's still owed"
+      ],
+      "goodsLine": "Rice, 10 sacks × 25 kg",
+      "note": "Sample figures. How costs are applied depends on the app's accounting method."
+    },
+    "dues": {
+      "eyebrow": "Customer dues",
+      "title": "Who owes what — always clear.",
+      "lead": "Keep customer dues and payments organised, so you can check any account easily.",
+      "pay": "Record Tk 500 payment",
+      "paidToast": "Payment recorded (demo)",
+      "note": "Names and amounts are samples. The app does not collect money or send reminders on its own."
+    },
+    "voice": {
+      "eyebrow": "Bangla voice assistant",
+      "title": "No need to type every time — just ask in Bangla.",
+      "lead": "Typing is hard while serving customers. Ask out loud, and the app shows the account you need.",
+      "notice": "This is an interactive demo. Your microphone is not turned on, and answers come only from this page's sample data.",
+      "micLabel": "Play the demo question",
+      "listening": "Demo: playing the question…",
+      "thinking": "Looking up the accounts…",
+      "questions": [
+        "আজকে আমার কত বিক্রি হয়েছে?",
+        "এই পণ্যটা কত দামে কিনেছিলাম?",
+        "কোন পণ্যগুলো কমে এসেছে?",
+        "রহিমের কাছে কত টাকা বাকি?"
+      ],
+      "answers": {
+        "sales": "আজকের মোট বিক্রির হিসাব দেখুন এখানে।",
+        "check": "কোন পণ্যের কথা বলছেন, নিশ্চিত হতে পারিনি। পণ্যের নাম বলে আবার জিজ্ঞেস করুন—অথবা পণ্যের তালিকা থেকে দেখে নিন।",
+        "low": "এই পণ্যগুলো কমে এসেছে।",
+        "rahim": "রহিম উদ্দিনের কাছে বাকি আছে {amount} টাকা।",
+        "unknown": "এই ডেমোতে শুধু ওপরের চারটি প্রশ্নের উত্তর দেওয়া যায়। অন্য কিছু জানতে চাইলে তথ্যটি অ্যাপে যাচাই করে দেখতে হবে।"
+      },
+      "verified": "Answered from sample data",
+      "needsCheck": "Needs checking",
+      "tryLabel": "Try asking",
+      "textLabel": "Or type a question",
+      "placeholder": "e.g. কোন পণ্যগুলো কমে এসেছে?",
+      "send": "Ask",
+      "you": "Shopkeeper"
+    },
+    "benefits": {
+      "eyebrow": "Made for everyday shopkeeping",
+      "title": "Every account your shop needs, in one app.",
+      "items": {
+        "sales": {
+          "title": "Sales & billing",
+          "body": "Pick a product, enter the quantity — the app adds it up."
+        },
+        "stock": {
+          "title": "Stock",
+          "body": "What's in stock and what's running low, at a glance."
+        },
+        "purchases": {
+          "title": "Purchases",
+          "body": "What you bought, from whom, what you paid and still owe."
+        },
+        "expenses": {
+          "title": "Expenses",
+          "body": "Rent, electricity, staff wages — every expense in one place."
+        },
+        "dues": {
+          "title": "Customer dues",
+          "body": "Who took goods on due and who paid back — clearly."
+        },
+        "reports": {
+          "title": "Business reports",
+          "body": "Sales and expenses by day, week or month in simple charts."
+        },
+        "voice": {
+          "title": "Ask in Bangla",
+          "body": "Speak instead of typing, and see the account you need."
+        }
+      }
+    },
+    "tour": {
+      "eyebrow": "The mobile app",
+      "title": "Your shop's accounts, on your phone.",
+      "lead": "Laid out to use with one hand at the counter. See what each screen does.",
+      "screens": {
+        "home": {
+          "title": "Home",
+          "body": "Today's sales, dues and stock on one screen."
+        },
+        "sales": {
+          "title": "Sales",
+          "body": "Pick products, set quantities, save the sale."
+        },
+        "stock": {
+          "title": "Stock",
+          "body": "Quantity and price for every product."
+        },
+        "purchase": {
+          "title": "Purchase",
+          "body": "Supplier, price and extra costs."
+        },
+        "dues": {
+          "title": "Dues",
+          "body": "Customer dues and payments."
+        },
+        "voice": {
+          "title": "Assistant",
+          "body": "Ask in Bangla, get an answer right away."
+        }
+      },
+      "recreated": "Screens are an app preview built with sample data."
+    },
+    "faq": {
+      "title": "Common questions",
+      "items": [
+        {
+          "q": "How does HelloKhata help with my shop's accounts?",
+          "a": "You can record your shop's daily accounts — sales, stock, purchases, expenses and customer dues — in one app, and see them by day, week or month when you need to."
+        },
+        {
+          "q": "Can I record sales from my mobile?",
+          "a": "Yes. HelloKhata is designed for mobile use — pick a product, enter the quantity and the sale is recorded."
+        },
+        {
+          "q": "Can I keep track of stock and purchases?",
+          "a": "Yes. Stock goes down with sales and up when you record a purchase. You can also add transport or labour costs to a purchase."
+        },
+        {
+          "q": "Can I keep customer dues?",
+          "a": "Yes. Sales on due are recorded against the customer, and payments can be recorded when they pay. You can check who owes what at any time."
+        },
+        {
+          "q": "Can I ask about my business by speaking Bangla?",
+          "a": "HelloKhata's assistant is designed to answer questions in Bangla from the records in your account. If something isn't recorded, the assistant can't know it."
+        },
+        {
+          "q": "How do I start using HelloKhata?",
+          "a": "Tap “Start using the app” and enter your business type and details. If you need help, write to us from the contact page."
+        }
+      ]
+    },
+    "final": {
+      "title": "Your shop's accounts, now simpler.",
+      "lead": "Start with HelloKhata to keep your everyday business accounts organised.",
+      "cta": "Start using the app"
+    }
+  },
+  "pharmacy": {
+    "hero": {
+      "eyebrow": "Smarter pharmacy management. All in one place.",
+      "title1": "Run your pharmacy with",
+      "title2": "clarity and confidence.",
+      "lead": "Manage medicine sales, stock, purchases, expiry dates, and everyday pharmacy operations in one connected platform. Use intelligent prescription reading to help streamline manual entry.",
+      "primary": "Get Started",
+      "secondary": "See How It Works",
+      "note": "For independent pharmacies and growing pharmacy businesses.",
+      "sceneAlt": "Hand-drawn pharmacy: a pharmacist behind a glass counter with neatly organised medicine shelves and a handwritten prescription slip. The HelloKhata pharmacy screen shows today's sales, medicine search, stock and expiry information."
+    },
+    "ui": {
+      "appTitle": "Pharmacy",
+      "shop": "Sheba Pharmacy",
+      "todaySales": "Today's sales",
+      "bills": "{n} sales",
+      "search": "Search medicine",
+      "searchLabel": "Search medicines by name",
+      "stockStatus": "Stock status",
+      "expiringSoon": "Expiring within 60 days",
+      "rxQueue": "Prescriptions to review",
+      "weekSales": "Sales this week",
+      "sample": "Sample data",
+      "inStock": "In stock",
+      "low": "Low",
+      "out": "Out",
+      "expiring": "Expiring soon",
+      "batch": "Batch",
+      "expiry": "Expiry",
+      "qty": "Qty",
+      "price": "Price",
+      "total": "Total",
+      "add": "Add",
+      "added": "Added",
+      "remove": "Remove",
+      "increase": "Increase quantity",
+      "decrease": "Decrease quantity",
+      "cash": "Cash",
+      "mobile": "Mobile banking",
+      "due": "Due",
+      "payment": "Payment",
+      "recordSale": "Record sale",
+      "cart": "Current sale",
+      "emptyCart": "Search for a medicine and add it to the sale.",
+      "noResults": "No medicine matches that search.",
+      "history": "Recent sales",
+      "perUnit": "per {unit}",
+      "units": {
+        "strip": "strip",
+        "pc": "pc",
+        "bottle": "bottle",
+        "sachet": "sachet"
+      },
+      "forms": {
+        "tab": "Tab.",
+        "cap": "Cap.",
+        "syr": "Syrup",
+        "sachet": "Sachet"
+      },
+      "daysLeft": "{n} days left",
+      "nav": {
+        "overview": "Overview",
+        "sales": "Sales",
+        "stock": "Stock",
+        "purchases": "Purchases",
+        "reports": "Reports"
+      }
+    },
+    "workflow": {
+      "eyebrow": "One connected workflow",
+      "title": "Every part of the day, connected.",
+      "lead": "A purchase becomes stock. Stock is what you find and sell. Every sale becomes a record, and records become reports. Select a stage to see how it fits.",
+      "stagesLabel": "Workflow stages",
+      "stages": {
+        "purchase": {
+          "name": "Purchase",
+          "benefit": "Record purchases and keep supplier information organised."
+        },
+        "stock": {
+          "name": "Stock",
+          "benefit": "Review stock levels, batches and expiry dates."
+        },
+        "lookup": {
+          "name": "Prescription or product lookup",
+          "benefit": "Find medicine records quickly — by name or from a reviewed prescription."
+        },
+        "sales": {
+          "name": "Sales",
+          "benefit": "Record sales and payment details at the counter."
+        },
+        "records": {
+          "name": "Business records",
+          "benefit": "Every sale, purchase and expense kept in one place."
+        },
+        "reports": {
+          "name": "Reports",
+          "benefit": "Understand performance through clear reports."
+        }
+      }
+    },
+    "ocr": {
+      "eyebrow": "Prescription OCR",
+      "title": "Turn handwritten prescriptions into readable digital records.",
+      "lead": "Use HelloKhata's prescription OCR to help read handwritten prescription details and reduce repetitive manual entry. A person always reviews the result.",
+      "demoNote": "Demonstration with a fictional sample prescription. No real patient information is used, and nothing on this page is sent to an OCR service.",
+      "stagesLabel": "OCR demonstration stages",
+      "stages": {
+        "capture": "Capture",
+        "read": "Read",
+        "review": "Review & confirm"
+      },
+      "stageHints": {
+        "capture": "Photograph or upload the prescription.",
+        "read": "The text is read and fields are extracted.",
+        "review": "A person checks every field and corrects anything uncertain."
+      },
+      "capture": "Capture sample prescription",
+      "reading": "Reading the prescription…",
+      "next": "Continue to review",
+      "reset": "Start again",
+      "fields": {
+        "medicine": "Medicine",
+        "strength": "Strength",
+        "instructions": "Instructions",
+        "frequency": "Frequency",
+        "duration": "Duration"
+      },
+      "confidence": {
+        "high": "Read clearly",
+        "check": "Check this",
+        "unreadable": "Could not read"
+      },
+      "itemLabel": "Item {n}",
+      "unreadableNote": "The medicine name on this line could not be read. Check the prescription and enter it, or ask the prescriber.",
+      "checkNote": "Low confidence — compare with the prescription.",
+      "correctLabel": "Enter the medicine name as written",
+      "needsEntry": "Enter a value or remove this item before confirming.",
+      "removeItem": "Remove this item",
+      "confirmLabel": "I have checked these details against the prescription.",
+      "confirmBtn": "Confirm reviewed details",
+      "confirmedTitle": "Details reviewed",
+      "confirmedNote": "Reviewed details can now help you find medicines in your stock. Nothing is added to a sale automatically.",
+      "findInStock": "Find in stock",
+      "principlesTitle": "How prescription reading stays safe",
+      "principles": [
+        "An assistive reading tool — not a substitute for professional judgement.",
+        "Unclear names, strengths or doses are flagged, never silently guessed.",
+        "Output is not medically verified; a qualified person checks it before use.",
+        "Nothing becomes a sale without a person confirming it."
+      ],
+      "slipAlt": "A fictional handwritten prescription used for this demonstration."
+    },
+    "inventory": {
+      "eyebrow": "Inventory & expiry",
+      "title": "Know your stock. Stay ahead of expiry.",
+      "lead": "See every medicine with its batch, expiry date and quantity — and spot what is running low or approaching expiry.",
+      "filterLabel": "Filter medicines",
+      "filters": {
+        "all": "All medicines",
+        "expiring": "Expiring within 60 days",
+        "low": "Low stock"
+      },
+      "columns": {
+        "medicine": "Medicine",
+        "batch": "Batch",
+        "expiry": "Expiry",
+        "stock": "Stock",
+        "status": "Status"
+      },
+      "note": "Sample records for this demonstration.",
+      "alert": "{n} batches expire within 60 days",
+      "statHints": {
+        "all": "tracked with batch and expiry",
+        "expiring": "check these first",
+        "low": "below their minimum level"
+      },
+      "timeline": {
+        "title": "Expiry timeline",
+        "hint": "Select a medicine to see its batch and stock.",
+        "today": "Today",
+        "zone": "Next 60 days",
+        "ticks": [
+          "1 mo",
+          "2 mo",
+          "3 mo",
+          "6 mo",
+          "12 mo"
+        ],
+        "scale": "The next three months are drawn wider so close dates stay readable.",
+        "daysShort": "{n}d",
+        "daysWord": "days left",
+        "detail": {
+          "batch": "Batch",
+          "expiry": "Expires",
+          "stock": "In stock",
+          "min": "Minimum level: {n}"
+        }
+      }
+    },
+    "pos": {
+      "eyebrow": "Pharmacy sales",
+      "title": "Make every sale easier to manage.",
+      "lead": "Search by medicine name, add strips or units, choose how the customer pays, and keep every transaction on record.",
+      "rxTitle": "From a reviewed prescription",
+      "rxNote": "Only details confirmed by a person in the OCR review appear here. They help you search — you still choose what to sell.",
+      "rxEmpty": "Confirm the sample prescription above to see its reviewed items here.",
+      "recorded": "Sale recorded (demo)",
+      "note": "Sample medicines and prices. Discounts are not shown because their availability hasn't been confirmed."
+    },
+    "reports": {
+      "eyebrow": "Business performance",
+      "title": "Understand your pharmacy's performance.",
+      "lead": "See revenue, costs, expenses and profit side by side — not just how many medicines you sold.",
+      "periodLabel": "Period",
+      "periods": {
+        "today": "Today",
+        "week": "7 days",
+        "month": "30 days"
+      },
+      "viewLabel": "Report",
+      "views": {
+        "overview": "Revenue & profit",
+        "inventory": "Inventory value",
+        "balances": "Dues & balances"
+      },
+      "revenue": "Revenue (sales)",
+      "cogs": "Cost of medicines sold",
+      "gross": "Gross profit",
+      "expenses": "Expenses",
+      "net": "Net profit",
+      "inventoryValue": "Inventory value at cost",
+      "inventoryRetail": "At selling price",
+      "items": "{n} medicines in stock",
+      "customerDues": "Customer dues",
+      "supplierBalances": "Owed to suppliers",
+      "trend": "Daily revenue",
+      "note": "Sample data. Profit is revenue minus the recorded cost of medicines sold, minus expenses — it depends on purchase costs being recorded."
+    },
+    "assistant": {
+      "eyebrow": "AI assistance",
+      "title": "Ask questions. Understand your business.",
+      "lead": "Ask about your sales, stock and expiry in plain language. Answers come from your available business records — and the assistant says so when it can't answer.",
+      "notice": "Interactive demo using this page's sample data. The assistant helps with business records only — it does not diagnose, prescribe or make clinical decisions.",
+      "tryLabel": "Try asking",
+      "questions": [
+        "Which products are running low?",
+        "Show me today's sales.",
+        "Which medicines are approaching expiry?",
+        "What should I give a patient for fever?"
+      ],
+      "answers": {
+        "low": "These medicines are below their minimum stock level:",
+        "sales": "Here are today's sales from your records:",
+        "expiry": "These batches expire within 60 days:",
+        "clinical": "I can't help with that. Treatment decisions belong to a qualified doctor or pharmacist. I can help with sales, stock, purchases and other business records.",
+        "unknown": "I couldn't find that in the available records, so I won't guess. Try asking about sales, stock or expiry."
+      },
+      "source": "From: {source}",
+      "sources": {
+        "low": "Stock records",
+        "sales": "Today's sales",
+        "expiry": "Batch & expiry records"
+      },
+      "textLabel": "Or type a question",
+      "placeholder": "e.g. Which medicines are approaching expiry?",
+      "send": "Ask",
+      "you": "You",
+      "assistantName": "HelloKhata",
+      "outOfScope": "Outside business records"
+    },
+    "scale": {
+      "eyebrow": "Built for your size",
+      "title": "For the independent medicine shop — and the pharmacy that grows.",
+      "single": {
+        "title": "One pharmacy",
+        "body": "Everything an independent medicine shop needs every day.",
+        "points": [
+          "Sales, stock and expiry in one place",
+          "Purchases and supplier balances",
+          "Simple reports for the owner"
+        ]
+      },
+      "multi": {
+        "title": "More than one location",
+        "body": "Running several branches? Multi-branch tools live in HelloKhata for Super Shops.",
+        "link": "See multi-branch management"
+      }
+    },
+    "trust": {
+      "eyebrow": "Clarity",
+      "title": "Evaluate HelloKhata with clear information.",
+      "lead": "No invented testimonials or statistics — just what the product does and how it works.",
+      "capabilitiesTitle": "Pharmacy capabilities and their status",
+      "items": [
+        {
+          "title": "Prescription reading, honestly",
+          "body": "OCR assists reading; unclear details are flagged and a person confirms everything before use."
+        },
+        {
+          "title": "Access you control",
+          "body": "Business information is available to the people you authorise on your account."
+        },
+        {
+          "title": "Help when you start",
+          "body": "Guides and support are available through the Help Center and contact page."
+        },
+        {
+          "title": "Clear about integrations",
+          "body": "Integrations are listed only when confirmed. Nothing here is presented as connected without verification."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "What can HelloKhata do for my pharmacy?",
+          "a": "HelloKhata helps you record medicine sales, manage stock with batch and expiry information, record purchases and supplier balances, keep track of expenses and customer dues, and view reports — in one place. Prescription OCR helps read handwritten prescriptions to reduce manual entry."
+        },
+        {
+          "q": "Can HelloKhata read handwritten prescriptions?",
+          "a": "Prescription OCR is designed to help read handwritten prescription details such as medicine name, strength and instructions. It is an assistive tool: results are shown for a person to review and correct."
+        },
+        {
+          "q": "Does prescription OCR always identify medicines correctly?",
+          "a": "No. Recognition depends on how readable the prescription is and on the system's capabilities. Unclear fields are flagged, and important details — medicine names, strengths and instructions — must be reviewed by a qualified person before use."
+        },
+        {
+          "q": "Can I manage medicine inventory and expiry information?",
+          "a": "Yes. You can see stock by medicine with batch and expiry information, and find items that are running low or approaching expiry. Each capability shows its current status on this page."
+        },
+        {
+          "q": "Can I record purchases and supplier payments?",
+          "a": "Yes. Record purchases with items, quantities and costs, including transport or labour where needed, and keep track of what you've paid and still owe each supplier."
+        },
+        {
+          "q": "Can I track sales and business expenses?",
+          "a": "Yes. Sales are recorded with payment details, and expenses such as rent, bills and salaries can be recorded by category."
+        },
+        {
+          "q": "Can I view pharmacy sales reports?",
+          "a": "Yes. Reports show sales, costs, expenses and profit by period, along with inventory value and outstanding balances. Profit figures depend on purchase costs and expenses being recorded."
+        },
+        {
+          "q": "How can I get started with HelloKhata?",
+          "a": "Select Get Started and enter your business details. If you'd like help choosing the right setup, contact our team."
+        }
+      ]
+    },
+    "final": {
+      "title": "Bring your pharmacy operations together.",
+      "lead": "Manage everyday pharmacy work with clearer records, organised stock, and intelligent tools designed to make business management easier.",
+      "cta": "Get Started with HelloKhata"
+    }
+  }
+}

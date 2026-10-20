@@ -1,0 +1,214 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   HelloKhata design tokens
+   Paper & ink carry the handcrafted character; green carries the brand.
+   ------------------------------------------------------------------ */
+@theme {
+  --color-paper: #f7f2e7;
+  --color-paper-deep: #efe6d3;
+  --color-cream: #fffcf5;
+  --color-ink: #17221c;
+  --color-ink-soft: #3a463f;
+  --color-muted: #5c665f;
+  --color-rule: #ddd3bf;
+
+  --color-leaf: #16a34a;
+  --color-leaf-deep: #15803d;
+  --color-leaf-ink: #0f5f2e;
+  --color-leaf-soft: #dcfce7;
+  --color-leaf-glow: #4ade80;
+
+  --color-forest: #0c2318;
+  --color-forest-2: #12301f;
+  --color-forest-3: #1b4430;
+
+  --color-sky: #2563eb;
+  --color-marigold: #d99a1e;
+  --color-marigold-soft: #f8e7bf;
+  --color-vermilion: #b9442e;
+  --color-vermilion-soft: #f3d6cc;
+
+  --font-sans: var(--font-hind), var(--font-manrope), "Noto Sans Bengali", system-ui, sans-serif;
+  --font-latin: var(--font-manrope), var(--font-hind), system-ui, sans-serif;
+  --font-display: var(--font-tiro), var(--font-hind), "Noto Serif Bengali", Georgia, serif;
+  --font-hand: var(--font-galada), var(--font-hind), cursive;
+
+  --radius-card: 1.25rem;
+  --shadow-card: 0 1px 0 rgb(23 34 28 / 0.04), 0 12px 32px -12px rgb(23 34 28 / 0.18);
+  --shadow-float: 0 2px 0 rgb(23 34 28 / 0.05), 0 30px 60px -20px rgb(12 35 24 / 0.35);
+
+  --ease-ink: cubic-bezier(0.22, 1, 0.36, 1);
+
+  --animate-wave: wave 1.1s var(--ease-ink) infinite;
+  --animate-breathe: breathe 3.2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.25); }
+  50% { transform: scaleY(1); }
+}
+@keyframes breathe {
+  0%, 100% { transform: scale(1); opacity: 0.55; }
+  50% { transform: scale(1.08); opacity: 0.85; }
+}
+@keyframes flow {
+  to { stroke-dashoffset: -64; }
+}
+.hk-flow { animation: flow 1.6s linear infinite; }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: none; }
+}
+.hk-rise { animation: rise 0.9s var(--ease-ink) both; }
+@keyframes draw {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
+}
+.hk-draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 0.9s cubic-bezier(0.65, 0, 0.35, 1) both; }
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(-1.5deg); }
+}
+.hk-bob { animation: bob 4.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes steam {
+  0% { opacity: 0; transform: translateY(6px); }
+  35% { opacity: 0.7; }
+  100% { opacity: 0; transform: translateY(-16px); }
+}
+.hk-steam { animation: steam 3s ease-out infinite; transform-box: fill-box; }
+
+@keyframes caret {
+  50% { opacity: 0; }
+}
+
+:root {
+  color-scheme: light;
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .28 0 0 0 0 .18 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --fibers: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.012 .09' numOctaves='2' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 .55 0 0 0 0 .45 0 0 0 0 .3 0 0 0 .22 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23f)'/%3E%3C/svg%3E");
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+html[lang="en"] body {
+  font-family: var(--font-latin);
+}
+
+/* Bengali needs a taller line box for vowel signs above and below the matra. */
+:lang(bn) {
+  line-height: 1.7;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+:lang(bn) h1, :lang(bn) h2, :lang(bn) h3 {
+  line-height: 1.32;
+  letter-spacing: 0;
+}
+
+::selection {
+  background: var(--color-leaf-soft);
+  color: var(--color-leaf-ink);
+}
+
+:focus-visible {
+  outline: 2.5px solid var(--color-leaf-deep);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.on-dark :focus-visible {
+  outline-color: var(--color-leaf-glow);
+}
+
+/* ---------- Paper surfaces ---------- */
+.paper {
+  background-color: var(--color-paper);
+  background-image: var(--grain), var(--fibers);
+  background-blend-mode: multiply, multiply;
+  background-size: 220px 220px, 600px 600px;
+}
+.paper-cream {
+  background-color: var(--color-cream);
+  background-image: var(--grain);
+  background-blend-mode: multiply;
+  background-size: 220px 220px;
+}
+.grain-dark {
+  position: relative;
+  isolation: isolate;
+}
+.grain-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--grain);
+  background-size: 220px;
+  opacity: 0.16;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Ink strokes inside illustrations */
+.ink {
+  fill: none;
+  stroke: var(--color-ink);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Hand-underline for emphasised words */
+.hand-underline {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 14' preserveAspectRatio='none'%3E%3Cpath d='M2 9 C 40 3, 90 12, 130 6 S 185 5, 198 8' fill='none' stroke='%2316A34A' stroke-width='3.2' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 100% 0.45em;
+  background-position: 0 100%;
+  padding-bottom: 0.08em;
+}
+
+.caret::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-inline-start: 2px;
+  vertical-align: -0.15em;
+  background: currentColor;
+  animation: caret 1s steps(1) infinite;
+}
+
+/* Soft paper halo so hero copy stays crisp over the drawing */
+@media (min-width: 1024px) {
+  .hero-halo :is(h1, p) { text-shadow: 0 0 18px var(--color-paper), 0 0 8px var(--color-paper), 0 0 3px var(--color-paper); }
+}
+
+@keyframes page-in {
+  from { opacity: 0.001; }
+  to { opacity: 1; }
+}
+.hk-page { animation: page-in 0.4s var(--ease-ink) both; }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
