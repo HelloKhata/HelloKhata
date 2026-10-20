@@ -18,7 +18,7 @@ export function Hero({ locale }: { locale: Locale }) {
           <HeroHeadline line1={h.title1} line2={h.title2} />
           <p className="mt-6 max-w-[30rem] text-lg text-pretty text-ink-soft sm:text-xl">{h.lead}</p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <ButtonLink href={`/${locale}/get-started`} size="lg" arrow className="w-full sm:w-auto">
+            <ButtonLink href={`https://app.hellokhata.com`} size="lg" arrow className="w-full sm:w-auto">
               {t.common.getStarted}
             </ButtonLink>
             <ButtonLink href={`/${locale}/how-it-works`} variant="secondary" size="lg" className="w-full sm:w-auto">

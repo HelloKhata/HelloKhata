@@ -10,6 +10,7 @@ import { cn } from "@/lib/cn";
 import { Wordmark } from "@/components/ui/Wordmark";
 import { ButtonLink } from "@/components/ui/Button";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import Image from "next/image";
 
 type MenuItem = { href: string; label: string; desc?: string };
 type MenuGroup = { key: string; label: string; items: MenuItem[]; footer?: MenuItem; wide?: boolean };
@@ -112,8 +113,8 @@ export function SiteNav() {
         )}
       >
         <nav aria-label={t.nav.label} className={cn("mx-auto flex max-w-[1320px] items-center gap-6 px-5 transition-[height] duration-500 sm:px-8", scrolled ? "h-16" : "h-20")}>
-          <Link href={p("")} className="shrink-0 rounded-md" aria-label="HelloKhata">
-            <Wordmark />
+          <Link href="/" className="shrink-0 rounded-md" aria-label="HelloKhata">
+            <Image src="/logo.png" alt="HelloKhata Logo" width={200} height={150} />
           </Link>
 
           <ul className="ml-4 hidden items-center gap-1 lg:flex">
@@ -132,10 +133,10 @@ export function SiteNav() {
 
           <div className="ml-auto hidden items-center gap-3 lg:flex">
             <LanguageSwitcher />
-            <Link href={p("/sign-in")} className="rounded-full px-3 py-2 text-[0.95rem] font-semibold text-ink-soft transition-colors hover:text-ink">
+            <Link href="https://app.hellokhata.com/login" className="rounded-full px-3 py-2 text-[0.95rem] font-semibold text-ink-soft transition-colors hover:text-ink">
               {t.common.signIn}
             </Link>
-            <ButtonLink href={p("/get-started")} arrow>
+            <ButtonLink href="https://app.hellokhata.com/register" arrow>
               {t.common.getStarted}
             </ButtonLink>
           </div>
