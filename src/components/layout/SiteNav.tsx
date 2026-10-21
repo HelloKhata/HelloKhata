@@ -116,7 +116,6 @@ export function SiteNav() {
           <Link href="/" className="shrink-0 rounded-md" aria-label="HelloKhata">
             <Image src="/logo.png" alt="HelloKhata Logo" width={200} height={150} />
           </Link>
-
           <ul className="ml-4 hidden items-center gap-1 lg:flex">
             {groups.map((g) => (
               <li key={g.key} className="relative" onPointerEnter={(e) => e.pointerType === "mouse" && hoverOpen(g.key)} onPointerLeave={(e) => e.pointerType === "mouse" && hoverOpen(null)}>

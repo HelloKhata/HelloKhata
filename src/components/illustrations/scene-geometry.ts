@@ -2,15 +2,15 @@
 export const SCENE_W = 1440;
 export const SCENE_H = 600;
 
-/** Ink route from the sales card down through the shop to the shopkeeper's pen on the ledger (matches image 2) */
+/** Ink route from the shopkeeper's pen to the digital card (a1 → a2) and on to the phone (b). */
 export const inkRoute = {
-  a1: "M858 428 C810 422 755 395 740 365 C732 335 730 295 730 290",
-  a2: "M730 290 C730 275 725 258 722 245",
-  b: "M722 245 C780 180 920 120 1060 90",
+  a1: "M858 428 C840 432 812 430 800 418 C786 404 800 388 790 372 C778 352 742 350 736 326",
+  a2: "M736 326 C730 300 768 290 756 262 C746 238 716 236 726 212 C736 188 768 186 770 160 C771 145 770 130 770 112",
+  b: "M880 60 C940 30 990 100 1040 72 C1090 44 1110 64 1180 60",
   nodes: [
-    [722, 245],
-    [730, 295],
-    [740, 365],
-    [810, 415],
+    [736, 326],
+    [756, 262],
+    [726, 212],
+    [770, 160],
   ] as [number, number][],
 };
