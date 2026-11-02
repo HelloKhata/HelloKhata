@@ -3,8 +3,8 @@ import { locales, localeMeta } from "@/i18n/config";
 import { categorySlugs, featureSlugs } from "@/content/site";
 import { siteUrl } from "@/lib/site";
 
-// Sign-in and draft legal pages are intentionally excluded (they are noindex).
-const paths = ["", "/features", "/solutions", "/pricing", "/how-it-works", "/about", "/resources", "/contact", "/get-started", ...featureSlugs.map((s) => `/features/${s}`), ...categorySlugs.map((s) => `/solutions/${s}`)];
+// Sign-in and draft legal pages (e.g. terms) are excluded until finalized.
+const paths = ["", "/features", "/solutions", "/pricing", "/how-it-works", "/about", "/resources", "/contact", "/get-started", "/privacy", ...featureSlugs.map((s) => `/features/${s}`), ...categorySlugs.map((s) => `/solutions/${s}`)];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return paths.flatMap((path) =>
